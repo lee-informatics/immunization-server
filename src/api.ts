@@ -15,7 +15,9 @@ if (process.env.IMMUNIZATION_FHIR_BASE_URL) {
     console.error('IMMUNIZATION_FHIR_BASE_URL must be set. Exiting, sorry!');
     process.exit(1);
 }
-if (!process.env.IMMUNIZATION_ADMINISTRATOR_PASSWORD) {
+if (process.env.IMMUNIZATION_ADMINISTRATOR_PASSWORD) {
+    console.log('Using IMMUNIZATION_ADMINISTRATOR_PASSWORD: (redacted from logs)');
+} else {
     console.error('IMMUNIZATION_ADMINISTRATOR_PASSWORD must be set. Exiting, sorry!');
     process.exit(1);
 }

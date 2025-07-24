@@ -1,0 +1,10 @@
+.dockerignore
+.drone.yml
+.env*
+.git
+.gitignore
+
+build/
+node_modules/
+
+README.md

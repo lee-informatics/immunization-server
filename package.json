@@ -1,0 +1,52 @@
+{
+    "name": "@asushares/cds",
+    "version": "2.4.4",
+    "description": "ASU SHARES FHIR Consent CDS Hooks services.",
+    "scripts": {
+        "start": "npm run build && npx node build/server.js",
+        "build": "npx tsc && npm run copy-files",
+        "copy-files": "cp -Rf src/data/ build/data/",
+        "watch": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'npx ts-node src/server.ts'",
+        "test": "jest",
+        "test-watch": "nodemon --watch '{src,test}/**' --ext 'ts,json' --exec 'npx jest'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asushares/cds.git"
+    },
+    "keywords": [
+        "asu shares",
+        "cds hooks"
+    ],
+    "author": "Preston Lee",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/asushares/cds/issues"
+    },
+    "homepage": "https://github.com/asushares/cds#readme",
+    "dependencies": {
+        "@asushares/core": "^2.12.5",
+        "ajv": "^8.17.1",
+        "axios": "^1.11.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.0",
+        "express": "^5.1.0",
+        "express-basic-auth": "^1.2.1",
+        "jsonpath-plus": "^10.3.0",
+        "nodemon": "^3.1.10",
+        "rxjs": "^7.8.2",
+        "statman": "^1.9.1",
+        "supertest": "^7.1.4",
+        "ts-jest": "^29.4.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8",
+        "uuid": "^11.1.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.3",
+        "@types/fhir": "^0.0.41",
+        "@types/jest": "^30.0.0",
+        "@types/uuid": "^10.0.0"
+    }
+}

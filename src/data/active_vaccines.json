@@ -1,0 +1,1132 @@
+[
+  {
+    "cvxCode": 24,
+    "shortDescription": "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis",
+    "fullName": "Anthrax vaccine, adsorbed, pre-exposure and post-exposure prophylaxis",
+    "note": null,
+    "status": "Active",
+    "internalId": 4,
+    "nonvaccine": false,
+    "updateDate": "2024-01-25"
+  },
+  {
+    "cvxCode": 19,
+    "shortDescription": "BCG",
+    "fullName": "Bacillus Calmette-Guerin vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 5,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 27,
+    "shortDescription": "botulinum antitoxin",
+    "fullName": "botulinum antitoxin",
+    "note": null,
+    "status": "Active",
+    "internalId": 6,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 29,
+    "shortDescription": "CMVIG",
+    "fullName": "cytomegalovirus immune globulin, intravenous",
+    "note": null,
+    "status": "Active",
+    "internalId": 8,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 56,
+    "shortDescription": "dengue fever tetravalent",
+    "fullName": "dengue fever vaccine, tetravalent",
+    "note": "Applies to tetravalent product (e.g. DENGVAXIA)",
+    "status": "Active",
+    "internalId": 9,
+    "nonvaccine": false,
+    "updateDate": "2024-12-11"
+  },
+  {
+    "cvxCode": 12,
+    "shortDescription": "diphtheria antitoxin",
+    "fullName": "diphtheria antitoxin",
+    "note": null,
+    "status": "Active",
+    "internalId": 10,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 20,
+    "shortDescription": "DTaP",
+    "fullName": "diphtheria, tetanus toxoids and acellular pertussis vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 12,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 106,
+    "shortDescription": "DTaP, 5 pertussis antigens",
+    "fullName": "diphtheria, tetanus toxoids and acellular pertussis vaccine, 5 pertussis antigens",
+    "note": null,
+    "status": "Active",
+    "internalId": 13,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 110,
+    "shortDescription": "DTaP-Hep B-IPV",
+    "fullName": "DTaP-hepatitis B and poliovirus vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 15,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 120,
+    "shortDescription": "DTaP-Hib-IPV",
+    "fullName": "diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)",
+    "note": null,
+    "status": "Active",
+    "internalId": 17,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 130,
+    "shortDescription": "DTaP-IPV",
+    "fullName": "Diphtheria, tetanus toxoids and acellular pertussis vaccine, and poliovirus vaccine, inactivated",
+    "note": null,
+    "status": "Active",
+    "internalId": 19,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 52,
+    "shortDescription": "Hep A, adult",
+    "fullName": "hepatitis A vaccine, adult dosage",
+    "note": null,
+    "status": "Active",
+    "internalId": 25,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 83,
+    "shortDescription": "Hep A, ped/adol, 2 dose",
+    "fullName": "hepatitis A vaccine, pediatric/adolescent dosage, 2 dose schedule",
+    "note": null,
+    "status": "Active",
+    "internalId": 26,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 104,
+    "shortDescription": "Hep A-Hep B",
+    "fullName": "hepatitis A and hepatitis B vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 30,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 30,
+    "shortDescription": "HBIG",
+    "fullName": "hepatitis B immune globulin",
+    "note": null,
+    "status": "Active",
+    "internalId": 31,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 8,
+    "shortDescription": "Hep B, adolescent or pediatric",
+    "fullName": "hepatitis B vaccine, pediatric or pediatric/adolescent dosage",
+    "note": "This code applies to any standard pediatric formulation of Hepatitis B vaccine. It should not be used for the 2-dose hepatitis B schedule for adolescents (11-15 year olds). Use code 43 for that vaccine.",
+    "status": "Active",
+    "internalId": 32,
+    "nonvaccine": false,
+    "updateDate": "2024-12-16"
+  },
+  {
+    "cvxCode": 43,
+    "shortDescription": "Hep B, adult",
+    "fullName": "hepatitis B vaccine, adult dosage",
+    "note": "This code applies to any standard adult dose and schedule. Also use CVX 43 for the FDA approved Recombivax HB 2-dose hepatitis B schedule for adolescents (11-15 year olds) using the adult formulation. ",
+    "status": "Active",
+    "internalId": 34,
+    "nonvaccine": false,
+    "updateDate": "2024-12-12"
+  },
+  {
+    "cvxCode": 44,
+    "shortDescription": "Hep B, high-dosage, dialysis or IC",
+    "fullName": "Hepatitis B vaccine (Hep B), high-dosage, dialysis or immunocompromised patient",
+    "note": "This code is used record patient high dosage vaccine administration for dialysis or immunocompromised patients. For NDCs that are used for both regular vaccine and dialysis/IC high-dosage schedules (e.g. Engerix-B), are mapped to both CVX 43 and CVX 44. CVX code 44 should be utilized to record dialysis/IC dosing.",
+    "status": "Active",
+    "internalId": 35,
+    "nonvaccine": false,
+    "updateDate": "2024-12-13"
+  },
+  {
+    "cvxCode": 48,
+    "shortDescription": "Hib (PRP-T)",
+    "fullName": "Haemophilus influenzae type b vaccine, PRP-T conjugate",
+    "note": null,
+    "status": "Active",
+    "internalId": 42,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 49,
+    "shortDescription": "Hib (PRP-OMP)",
+    "fullName": "Haemophilus influenzae type b vaccine, PRP-OMP conjugate",
+    "note": null,
+    "status": "Active",
+    "internalId": 43,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 62,
+    "shortDescription": "HPV, quadrivalent",
+    "fullName": "human papilloma virus vaccine, quadrivalent",
+    "note": null,
+    "status": "Active",
+    "internalId": 49,
+    "nonvaccine": false,
+    "updateDate": "2020-06-02"
+  },
+  {
+    "cvxCode": 86,
+    "shortDescription": "IG",
+    "fullName": "immune globulin, intramuscular",
+    "note": null,
+    "status": "Active",
+    "internalId": 51,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 87,
+    "shortDescription": "IGIV",
+    "fullName": "immune globulin, intravenous",
+    "note": null,
+    "status": "Active",
+    "internalId": 52,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 111,
+    "shortDescription": "Influenza, live, trivalent, intranasal, PF",
+    "fullName": "Influenza, live, trivalent, intranasal, preservative free",
+    "note": "HCP administered, trivalent code reactivated for 2024/2025 season",
+    "status": "Active",
+    "internalId": 54,
+    "nonvaccine": false,
+    "updateDate": "2025-07-15"
+  },
+  {
+    "cvxCode": 10,
+    "shortDescription": "IPV",
+    "fullName": "poliovirus vaccine, inactivated",
+    "note": null,
+    "status": "Active",
+    "internalId": 60,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 3,
+    "shortDescription": "MMR",
+    "fullName": "measles, mumps and rubella virus vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 68,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 94,
+    "shortDescription": "MMRV",
+    "fullName": "measles, mumps, rubella, and varicella virus vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 70,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 114,
+    "shortDescription": "meningococcal MCV4P",
+    "fullName": "meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)",
+    "note": null,
+    "status": "Active",
+    "internalId": 76,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 33,
+    "shortDescription": "pneumococcal polysaccharide PPV23",
+    "fullName": "pneumococcal polysaccharide vaccine, 23 valent",
+    "note": null,
+    "status": "Active",
+    "internalId": 83,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 34,
+    "shortDescription": "RIG",
+    "fullName": "rabies immune globulin",
+    "note": null,
+    "status": "Active",
+    "internalId": 92,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 119,
+    "shortDescription": "rotavirus, monovalent",
+    "fullName": "rotavirus, live, monovalent vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 93,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 116,
+    "shortDescription": "rotavirus, pentavalent",
+    "fullName": "rotavirus, live, pentavalent vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 97,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 93,
+    "shortDescription": "RSV-MAb",
+    "fullName": "respiratory syncytial virus monoclonal antibody (palivizumab), intramuscular",
+    "note": null,
+    "status": "Active",
+    "internalId": 102,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 113,
+    "shortDescription": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",
+    "fullName": "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)",
+    "note": null,
+    "status": "Active",
+    "internalId": 106,
+    "nonvaccine": false,
+    "updateDate": "2024-01-25"
+  },
+  {
+    "cvxCode": 9,
+    "shortDescription": "Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed",
+    "fullName": "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (2 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)",
+    "note": null,
+    "status": "Active",
+    "internalId": 107,
+    "nonvaccine": false,
+    "updateDate": "2017-10-27"
+  },
+  {
+    "cvxCode": 115,
+    "shortDescription": "Tdap",
+    "fullName": "tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed",
+    "note": null,
+    "status": "Active",
+    "internalId": 108,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 13,
+    "shortDescription": "TIG",
+    "fullName": "tetanus immune globulin",
+    "note": null,
+    "status": "Active",
+    "internalId": 113,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 25,
+    "shortDescription": "typhoid, oral",
+    "fullName": "typhoid vaccine, live, oral",
+    "note": null,
+    "status": "Active",
+    "internalId": 120,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 101,
+    "shortDescription": "typhoid, ViCPs",
+    "fullName": "typhoid Vi capsular polysaccharide vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 123,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 75,
+    "shortDescription": "Vaccinia (smallpox, mpox), live",
+    "fullName": "Vaccinia (smallpox, mpox) vaccine, live",
+    "note": null,
+    "status": "Active",
+    "internalId": 124,
+    "nonvaccine": false,
+    "updateDate": "2025-04-30"
+  },
+  {
+    "cvxCode": 79,
+    "shortDescription": "vaccinia immune globulin",
+    "fullName": "vaccinia immune globulin",
+    "note": null,
+    "status": "Active",
+    "internalId": 126,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 21,
+    "shortDescription": "varicella",
+    "fullName": "varicella virus vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 127,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 36,
+    "shortDescription": "VZIG",
+    "fullName": "varicella zoster immune globulin",
+    "note": null,
+    "status": "Active",
+    "internalId": 131,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 37,
+    "shortDescription": "yellow fever live",
+    "fullName": "yellow fever vaccine live",
+    "note": "This is the YF vaccine that has been available in the US for years. It is stabilized with sorbitol and gelatin.",
+    "status": "Active",
+    "internalId": 134,
+    "nonvaccine": false,
+    "updateDate": "2024-03-07"
+  },
+  {
+    "cvxCode": 133,
+    "shortDescription": "Pneumococcal conjugate PCV 13",
+    "fullName": "pneumococcal conjugate vaccine, 13 valent",
+    "note": null,
+    "status": "Active",
+    "internalId": 141,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 134,
+    "shortDescription": "Japanese Encephalitis IM",
+    "fullName": "Japanese Encephalitis vaccine for intramuscular administration",
+    "note": null,
+    "status": "Active",
+    "internalId": 142,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 136,
+    "shortDescription": "Meningococcal MCV4O",
+    "fullName": "meningococcal oligosaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4O)",
+    "note": null,
+    "status": "Active",
+    "internalId": 145,
+    "nonvaccine": false,
+    "updateDate": "2010-05-28"
+  },
+  {
+    "cvxCode": 135,
+    "shortDescription": "Influenza, high-dose, trivalent, PF",
+    "fullName": "Influenza, high-dose, split virus, trivalent, injectable, preservative free",
+    "note": "Trivalent code reactivated for 2024/2025 season",
+    "status": "Active",
+    "internalId": 146,
+    "nonvaccine": false,
+    "updateDate": "2024-05-02"
+  },
+  {
+    "cvxCode": 140,
+    "shortDescription": "Influenza, split virus, trivalent, PF",
+    "fullName": "Influenza, split virus, trivalent, injectable, preservative free",
+    "note": "Trivalent code reactivated for 2024/2025 season",
+    "status": "Active",
+    "internalId": 156,
+    "nonvaccine": false,
+    "updateDate": "2024-05-02"
+  },
+  {
+    "cvxCode": 141,
+    "shortDescription": "Influenza, split virus, trivalent, preservative",
+    "fullName": "Influenza, split virus, trivalent, injectable, contains preservative",
+    "note": "Trivalent code reactivated for 2024/2025 season",
+    "status": "Active",
+    "internalId": 159,
+    "nonvaccine": false,
+    "updateDate": "2024-05-02"
+  },
+  {
+    "cvxCode": 143,
+    "shortDescription": "Adenovirus types 4 and 7",
+    "fullName": "Adenovirus, type 4 and type 7, live, oral",
+    "note": "This vaccine is administered as 2 tablets.",
+    "status": "Active",
+    "internalId": 161,
+    "nonvaccine": false,
+    "updateDate": "2011-03-20"
+  },
+  {
+    "cvxCode": 146,
+    "shortDescription": "DTaP,IPV,Hib,HepB",
+    "fullName": "Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Inactivated Poliovirus, Haemophilus b Conjugate (Meningococcal Protein Conjugate), and Hepatitis B (Recombinant) Vaccine.",
+    "note": "This vaccine is different from CVX 132. Code may be used to document non-US vaccines (e.g. Hexamin) of the same component formulation",
+    "status": "Active",
+    "internalId": 164,
+    "nonvaccine": false,
+    "updateDate": "2022-08-10"
+  },
+  {
+    "cvxCode": 149,
+    "shortDescription": "Influenza, live, quadrivalent, intranasal",
+    "fullName": "Influenza, live, quadrivalent, intranasal",
+    "note": "Quadrivalent code starting 2013/2014 season",
+    "status": "Active",
+    "internalId": 167,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 150,
+    "shortDescription": "Influenza, split virus, quadrivalent, PF",
+    "fullName": "Influenza, split virus, quadrivalent, injectable, preservative free",
+    "note": "Quadrivalent code starting 2013/2014 season",
+    "status": "Active",
+    "internalId": 168,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 153,
+    "shortDescription": "Influenza, MDCK, trivalent, PF",
+    "fullName": "Influenza, Madin Darby Canine Kidney, subunit, trivalent, injectable, preservative free",
+    "note": "Trivalent code reactivated for 2024/2025 season",
+    "status": "Active",
+    "internalId": 171,
+    "nonvaccine": false,
+    "updateDate": "2024-05-06"
+  },
+  {
+    "cvxCode": 155,
+    "shortDescription": "Influenza, recombinant, trivalent, PF",
+    "fullName": "Influenza, recombinant, trivalent, injectable, preservative free",
+    "note": "Trivalent code reactivated for 2024/2025 season",
+    "status": "Active",
+    "internalId": 173,
+    "nonvaccine": false,
+    "updateDate": "2024-05-06"
+  },
+  {
+    "cvxCode": 156,
+    "shortDescription": "Rho(D)-IG",
+    "fullName": "Rho(D) Immune globulin- IV or IM",
+    "note": "This immune globulin may be administered either IM or IV.",
+    "status": "Active",
+    "internalId": 174,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 157,
+    "shortDescription": "Rho(D) -IG IM",
+    "fullName": "Rho(D) Immune globulin - IM",
+    "note": "This immune globulin may be administered IM only.",
+    "status": "Active",
+    "internalId": 175,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 158,
+    "shortDescription": "Influenza, split virus, quadrivalent, preservative",
+    "fullName": "Influenza, split virus, quadrivalent, injectable, contains preservative",
+    "note": "Quadrivalent code starting 2013/2014 season",
+    "status": "Active",
+    "internalId": 176,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 160,
+    "shortDescription": "Influenza A monovalent (H5N1), ADJUVANTED-2013",
+    "fullName": "Influenza A monovalent (H5N1), adjuvanted, National stockpile 2013",
+    "note": "Approved by FDA 2013, adjuvant is mixed at point of administration.",
+    "status": "Active",
+    "internalId": 178,
+    "nonvaccine": false,
+    "updateDate": "2014-05-27"
+  },
+  {
+    "cvxCode": 801,
+    "shortDescription": "AS03 Adjuvant",
+    "fullName": "AS03 Adjuvant",
+    "note": "This is the adjuvant that is packaged with H5N1 vaccine, adjuvanted",
+    "status": "Active",
+    "internalId": 179,
+    "nonvaccine": true,
+    "updateDate": "2020-10-27"
+  },
+  {
+    "cvxCode": 161,
+    "shortDescription": "Influenza, injectable,quadrivalent, preservative free, pediatric",
+    "fullName": "Influenza, injectable,quadrivalent, preservative free, pediatric",
+    "note": null,
+    "status": "Active",
+    "internalId": 180,
+    "nonvaccine": false,
+    "updateDate": "2024-07-29"
+  },
+  {
+    "cvxCode": 162,
+    "shortDescription": "meningococcal B, recombinant",
+    "fullName": "meningococcal B vaccine, fully recombinant",
+    "note": null,
+    "status": "Active",
+    "internalId": 181,
+    "nonvaccine": false,
+    "updateDate": "2014-11-03"
+  },
+  {
+    "cvxCode": 163,
+    "shortDescription": "meningococcal B, OMV",
+    "fullName": "meningococcal B vaccine, recombinant, OMV, adjuvanted",
+    "note": null,
+    "status": "Active",
+    "internalId": 182,
+    "nonvaccine": false,
+    "updateDate": "2015-02-02"
+  },
+  {
+    "cvxCode": 165,
+    "shortDescription": "HPV9",
+    "fullName": "Human Papillomavirus 9-valent vaccine",
+    "note": null,
+    "status": "Active",
+    "internalId": 184,
+    "nonvaccine": false,
+    "updateDate": "2014-12-11"
+  },
+  {
+    "cvxCode": 168,
+    "shortDescription": "Influenza, adjuvanted, trivalent, PF",
+    "fullName": "Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free",
+    "note": "Trivalent code reactivated for 2024/2025 season",
+    "status": "Active",
+    "internalId": 189,
+    "nonvaccine": false,
+    "updateDate": "2024-05-06"
+  },
+  {
+    "cvxCode": 171,
+    "shortDescription": "Influenza, MDCK, quadrivalent, PF",
+    "fullName": "Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, preservative free",
+    "note": "Quadrivalent code starting 2016/2017 season",
+    "status": "Active",
+    "internalId": 192,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 174,
+    "shortDescription": "cholera, live attenuated",
+    "fullName": "cholera, live attenuated",
+    "note": null,
+    "status": "Active",
+    "internalId": 195,
+    "nonvaccine": false,
+    "updateDate": "2016-06-17"
+  },
+  {
+    "cvxCode": 175,
+    "shortDescription": "Rabies - IM Diploid cell culture",
+    "fullName": "Human Rabies vaccine from human diploid cell culture",
+    "note": null,
+    "status": "Active",
+    "internalId": 196,
+    "nonvaccine": false,
+    "updateDate": "2016-10-18"
+  },
+  {
+    "cvxCode": 176,
+    "shortDescription": "Rabies - IM fibroblast culture",
+    "fullName": "Human rabies vaccine from Chicken fibroblast culture",
+    "note": null,
+    "status": "Active",
+    "internalId": 197,
+    "nonvaccine": false,
+    "updateDate": "2016-10-18"
+  },
+  {
+    "cvxCode": 181,
+    "shortDescription": "anthrax immune globulin",
+    "fullName": "anthrax immune globulin",
+    "note": null,
+    "status": "Active",
+    "internalId": 205,
+    "nonvaccine": true,
+    "updateDate": "2020-09-04"
+  },
+  {
+    "cvxCode": 183,
+    "shortDescription": "Yellow fever vaccine live - alt",
+    "fullName": "Yellow fever vaccine live - alternative formulation for vaccine shortage",
+    "note": "This CVX is associated to an FDA unapproved drug to be used when there is a drug shortage. Stabilized with sorbitol and lactose and has been used outside the US for some time.",
+    "status": "Active",
+    "internalId": 207,
+    "nonvaccine": false,
+    "updateDate": "2024-03-07"
+  },
+  {
+    "cvxCode": 185,
+    "shortDescription": "Influenza, recombinant, quadrivalent, PF",
+    "fullName": "Influenza, recombinant, quadrivalent, injectable, preservative free",
+    "note": "Quadrivalent code starting 2017/2018 season",
+    "status": "Active",
+    "internalId": 209,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 186,
+    "shortDescription": "Influenza, MDCK, quadrivalent, preservative",
+    "fullName": "Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, contains preservative",
+    "note": "Quadrivalent code starting 2017/2018 season",
+    "status": "Active",
+    "internalId": 210,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 187,
+    "shortDescription": "zoster recombinant",
+    "fullName": "zoster vaccine recombinant",
+    "note": null,
+    "status": "Active",
+    "internalId": 211,
+    "nonvaccine": false,
+    "updateDate": "2017-10-27"
+  },
+  {
+    "cvxCode": 189,
+    "shortDescription": "HepB-CpG",
+    "fullName": "Hepatitis B vaccine (recombinant), CpG adjuvanted",
+    "note": null,
+    "status": "Active",
+    "internalId": 213,
+    "nonvaccine": false,
+    "updateDate": "2018-05-10"
+  },
+  {
+    "cvxCode": 196,
+    "shortDescription": "Td, adsorbed, preservative free, adult use, Lf unspecified",
+    "fullName": "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use, Lf unspecified",
+    "note": "Used when Td Lf specification is unknown",
+    "status": "Active",
+    "internalId": 220,
+    "nonvaccine": false,
+    "updateDate": "2019-08-15"
+  },
+  {
+    "cvxCode": 197,
+    "shortDescription": "Influenza, high-dose, quadrivalent, PF",
+    "fullName": "Influenza, high-dose, split virus, quadrivalent, injectable, preservative free",
+    "note": "Quadrivalent code starting season 2020/2021",
+    "status": "Active",
+    "internalId": 221,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 200,
+    "shortDescription": "influenza, Southern Hemisphere, pediatric, preservative free",
+    "fullName": "influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free",
+    "note": "Pediatric dose for ages 6-35 months",
+    "status": "Active",
+    "internalId": 222,
+    "nonvaccine": false,
+    "updateDate": "2023-01-17"
+  },
+  {
+    "cvxCode": 201,
+    "shortDescription": "Influenza, Southern Hemisphere, quadrivalent, PF",
+    "fullName": "Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free",
+    "note": "Represents single dose vial",
+    "status": "Active",
+    "internalId": 223,
+    "nonvaccine": false,
+    "updateDate": "2025-04-22"
+  },
+  {
+    "cvxCode": 202,
+    "shortDescription": "influenza, Southern Hemisphere, quadrivalent, with preservative",
+    "fullName": "influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative",
+    "note": "Represents multi-dose vial",
+    "status": "Active",
+    "internalId": 224,
+    "nonvaccine": false,
+    "updateDate": "2023-01-17"
+  },
+  {
+    "cvxCode": 203,
+    "shortDescription": "meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)",
+    "fullName": "meningococcal polysaccharide (groups A, C, Y, W-135) tetanus toxoid conjugate vaccine 0.5mL dose, preservative free",
+    "note": null,
+    "status": "Active",
+    "internalId": 226,
+    "nonvaccine": false,
+    "updateDate": "2023-01-26"
+  },
+  {
+    "cvxCode": 205,
+    "shortDescription": "Influenza, adjuvanted, quadrivalent, PF",
+    "fullName": "Influenza, adjuvanted, inactivated, quadrivalent, injectable, preservative free",
+    "note": "Quadrivalent code starting 2020/2021 season",
+    "status": "Active",
+    "internalId": 228,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 206,
+    "shortDescription": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
+    "fullName": "Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection",
+    "note": "Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC & FDA guidance for updates regarding administration",
+    "status": "Active",
+    "internalId": 229,
+    "nonvaccine": false,
+    "updateDate": "2023-02-14"
+  },
+  {
+    "cvxCode": 204,
+    "shortDescription": "Ebola Zaire vaccine, live, recombinant, 1mL dose",
+    "fullName": "Ebola Zaire vaccine, live, recombinant, 1mL dose",
+    "note": "FDA Approved ERVEBO Vaccine. ",
+    "status": "Active",
+    "internalId": 235,
+    "nonvaccine": false,
+    "updateDate": "2024-01-03"
+  },
+  {
+    "cvxCode": 215,
+    "shortDescription": "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF",
+    "fullName": "Pneumococcal conjugate vaccine 15-valent (PCV15), polysaccharide CRM197 conjugate, adjuvant, preservative free",
+    "note": null,
+    "status": "Active",
+    "internalId": 250,
+    "nonvaccine": false,
+    "updateDate": "2021-08-18"
+  },
+  {
+    "cvxCode": 216,
+    "shortDescription": "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
+    "fullName": "Pneumococcal conjugate vaccine 20-valent (PCV20), polysaccharide CRM197 conjugate, adjuvant, preservative free",
+    "note": null,
+    "status": "Active",
+    "internalId": 251,
+    "nonvaccine": false,
+    "updateDate": "2023-03-09"
+  },
+  {
+    "cvxCode": 223,
+    "shortDescription": "Tick-borne encephalitis, inactivated, PF, 0.25mL",
+    "fullName": "Tick-borne encephalitis vaccine, inactivated, preservative free, 0.25mL dose",
+    "note": "Pediatric dose vaccine",
+    "status": "Active",
+    "internalId": 258,
+    "nonvaccine": false,
+    "updateDate": "2022-03-03"
+  },
+  {
+    "cvxCode": 224,
+    "shortDescription": "Tick-borne encephalitis, inactivated, PF, 0.5mL",
+    "fullName": "Tick-borne encephalitis vaccine, inactivated, preservative free, 0.5mL dose",
+    "note": "Adult dose vaccine",
+    "status": "Active",
+    "internalId": 259,
+    "nonvaccine": false,
+    "updateDate": "2022-03-04"
+  },
+  {
+    "cvxCode": 231,
+    "shortDescription": "influenza, Southern Hemisphere, high-dose, quadrivalent",
+    "fullName": "influenza, seasonal, Southern Hemisphere, high-dose, quadrivalent, 0.7mL dose, preservative free",
+    "note": "Target population 65 and older, starting Southern Hemisphere season 2023",
+    "status": "Active",
+    "internalId": 278,
+    "nonvaccine": false,
+    "updateDate": "2023-03-14"
+  },
+  {
+    "cvxCode": 303,
+    "shortDescription": "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
+    "fullName": "Respiratory syncytial virus (RSV), vaccine, recombinant, protein subunit RSV prefusion F, adjuvant reconstituted, 0.5 mL, preservative free",
+    "note": "Adults 60 years and older",
+    "status": "Active",
+    "internalId": 279,
+    "nonvaccine": false,
+    "updateDate": "2023-06-06"
+  },
+  {
+    "cvxCode": 305,
+    "shortDescription": "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
+    "fullName": "Respiratory syncytial virus (RSV), vaccine, bivalent, protein subunit RSV prefusion F, diluent reconstituted, 0.5 mL, preservative free",
+    "note": "Adults 60 years and older, pregnant individuals",
+    "status": "Active",
+    "internalId": 281,
+    "nonvaccine": false,
+    "updateDate": "2024-08-07"
+  },
+  {
+    "cvxCode": 306,
+    "shortDescription": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+    "fullName": "Respiratory syncytial virus (RSV) monoclonal antibody, IgG1\u03ba , (nirsevimab-alip), 0.5 mL, neonates and children to 24 months",
+    "note": "RSV monoclonal antibody (Beyfortus)",
+    "status": "Active",
+    "internalId": 282,
+    "nonvaccine": false,
+    "updateDate": "2023-07-25"
+  },
+  {
+    "cvxCode": 307,
+    "shortDescription": "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+    "fullName": "Respiratory syncytial virus (RSV) monoclonal antibody, IgG1\u03ba , (nirsevimab-alip), 1 mL, neonates and children to 24 months",
+    "note": "RSV monoclonal antibody (Beyfortus)",
+    "status": "Active",
+    "internalId": 283,
+    "nonvaccine": false,
+    "updateDate": "2023-08-09"
+  },
+  {
+    "cvxCode": 313,
+    "shortDescription": "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
+    "fullName": "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein-nanoparticle+Matrix-M1 Adjuvant, preservative free, 5 mcg/0.5 mL dose",
+    "note": "Novavax Fall Seasonal 12 years and older",
+    "status": "Active",
+    "internalId": 284,
+    "nonvaccine": false,
+    "updateDate": "2024-09-05"
+  },
+  {
+    "cvxCode": 308,
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+    "fullName": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 3 mcg/0.3 mL dose",
+    "note": "Pfizer Fall Seasonal 6 months through 4 years of age",
+    "status": "Active",
+    "internalId": 285,
+    "nonvaccine": false,
+    "updateDate": "2024-08-30"
+  },
+  {
+    "cvxCode": 309,
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+    "fullName": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 30 mcg/0.3 mL dose",
+    "note": "Pfizer Fall Seasonal 12 years and older",
+    "status": "Active",
+    "internalId": 286,
+    "nonvaccine": false,
+    "updateDate": "2024-08-30"
+  },
+  {
+    "cvxCode": 310,
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+    "fullName": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 10 mcg/0.3 mL dose",
+    "note": "Pfizer Fall Seasonal 5 years through 11 years of age",
+    "status": "Active",
+    "internalId": 287,
+    "nonvaccine": false,
+    "updateDate": "2024-08-30"
+  },
+  {
+    "cvxCode": 312,
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+    "fullName": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 50 mcg/0.5 mL dose",
+    "note": "Moderna Fall Seasonal 12 years and older",
+    "status": "Active",
+    "internalId": 288,
+    "nonvaccine": false,
+    "updateDate": "2024-08-30"
+  },
+  {
+    "cvxCode": 311,
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+    "fullName": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 25 mcg/0.25 mL dose",
+    "note": "Moderna Fall Seasonal 6 months through 11 years of age",
+    "status": "Active",
+    "internalId": 289,
+    "nonvaccine": false,
+    "updateDate": "2024-08-30"
+  },
+  {
+    "cvxCode": 316,
+    "shortDescription": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+    "fullName": "Meningococcal polysaccharide (groups A, C, Y, W) tetanus toxoid conjugate, meningococcal B recombinant vaccine, 0.5mL, preservative free",
+    "note": "Meningococcal pentavalent vaccine strains ABCW and Y",
+    "status": "Active",
+    "internalId": 292,
+    "nonvaccine": false,
+    "updateDate": "2024-01-25"
+  },
+  {
+    "cvxCode": 317,
+    "shortDescription": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+    "fullName": "Chikungunya, live attenuated vaccine, 0.5 mL, preservative free",
+    "note": "Chikungunya Vaccine",
+    "status": "Active",
+    "internalId": 293,
+    "nonvaccine": false,
+    "updateDate": "2023-12-20"
+  },
+  {
+    "cvxCode": 318,
+    "shortDescription": "Anthrax, post-exposure prophylaxis",
+    "fullName": "Anthrax vaccine, adsorbed, adjuvanted, post-exposure prophylaxis",
+    "note": "National stockpile vaccine (Cyfendus)",
+    "status": "Active",
+    "internalId": 294,
+    "nonvaccine": false,
+    "updateDate": "2024-01-25"
+  },
+  {
+    "cvxCode": 320,
+    "shortDescription": "Influenza, MDCK, trivalent, preservative",
+    "fullName": "Influenza, Madin Darby Canine Kidney, subunit, trivalent, injectable, contains preservative",
+    "note": "Trivalent code starting 2024/2025 season",
+    "status": "Active",
+    "internalId": 296,
+    "nonvaccine": false,
+    "updateDate": "2024-05-15"
+  },
+  {
+    "cvxCode": 321,
+    "shortDescription": "Influenza-avian, H5N8, monovalent, PF",
+    "fullName": "Influenza-avian, H5N8, viral-vector, monovalent, injectable, preservative free",
+    "note": "Novel Bird Flu H5N8 Vaccine 2024",
+    "status": "Active",
+    "internalId": 297,
+    "nonvaccine": false,
+    "updateDate": "2024-06-12"
+  },
+  {
+    "cvxCode": 322,
+    "shortDescription": "Influenza-avian, H5N8, monovalent, preservative",
+    "fullName": "Influenza-avian, H5N8, viral-vector, monovalent, injectable, contains preservative",
+    "note": "Novel Bird Flu H5N8 Vaccine 2024",
+    "status": "Active",
+    "internalId": 298,
+    "nonvaccine": false,
+    "updateDate": "2024-06-12"
+  },
+  {
+    "cvxCode": 326,
+    "shortDescription": "RSV, mRNA, injectable, PF",
+    "fullName": "Respiratory syncytial virus (RSV), mRNA, injectable, preservative free",
+    "note": "mRNA RSV vaccine added 2024",
+    "status": "Active",
+    "internalId": 301,
+    "nonvaccine": false,
+    "updateDate": "2024-08-30"
+  },
+  {
+    "cvxCode": 327,
+    "shortDescription": "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+    "fullName": "Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free",
+    "note": null,
+    "status": "Active",
+    "internalId": 302,
+    "nonvaccine": false,
+    "updateDate": "2024-07-11"
+  },
+  {
+    "cvxCode": 328,
+    "shortDescription": "Meningococcal oligosaccharide (MenACWY), (MenB), PF",
+    "fullName": "Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free",
+    "note": "Meningococcal pentavalent vaccine strains ABCW and Y",
+    "status": "Active",
+    "internalId": 303,
+    "nonvaccine": false,
+    "updateDate": "2025-03-18"
+  },
+  {
+    "cvxCode": 329,
+    "shortDescription": "Chikungunya, VLP, recombinant, 0.8 mL, PF",
+    "fullName": "Chikungunya, virus-like particle (VLP), recombinant vaccine, 0.8 mL, preservative free",
+    "note": null,
+    "status": "Active",
+    "internalId": 304,
+    "nonvaccine": false,
+    "updateDate": "2025-03-18"
+  },
+  {
+    "cvxCode": 331,
+    "shortDescription": "Influenza, Southern Hemisphere, trivalent, PF",
+    "fullName": "Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free",
+    "note": "Represents single dose vial",
+    "status": "Active",
+    "internalId": 306,
+    "nonvaccine": false,
+    "updateDate": "2025-04-30"
+  },
+  {
+    "cvxCode": 332,
+    "shortDescription": "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+    "fullName": "Respiratory syncytial virus (RSV), monoclonal antibody, IgG1\u03ba , (clesrovimab-cfor), 0.7 mL, neonate and infant, preservative free",
+    "note": "RSV mAb for neonates and infants born during or entering first RSV season (Enflonsia)",
+    "status": "Active",
+    "internalId": 308,
+    "nonvaccine": false,
+    "updateDate": "2025-07-03"
+  },
+  {
+    "cvxCode": 333,
+    "shortDescription": "Influenza, live, trivalent, intranasal, self/caregiver admin, PF",
+    "fullName": "Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free",
+    "note": "Self or caregiver administered, new starting 2025/2026 season",
+    "status": "Active",
+    "internalId": 309,
+    "nonvaccine": false,
+    "updateDate": "2025-07-15"
+  }
+]

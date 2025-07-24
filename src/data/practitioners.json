@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Sarah Johnson, MD",
+    "specialty": "Pediatrician",
+    "credentials": "MD",
+    "department": "Pediatrics"
+  },
+  {
+    "id": "2",
+    "name": "Dr. Michael Chen, MD",
+    "specialty": "Family Medicine",
+    "credentials": "MD",
+    "department": "Family Medicine"
+  },
+  {
+    "id": "3",
+    "name": "Dr. Emily Rodriguez, DO",
+    "specialty": "Pediatrician",
+    "credentials": "DO",
+    "department": "Pediatrics"
+  },
+  {
+    "id": "4",
+    "name": "Dr. James Wilson, MD",
+    "specialty": "Internal Medicine",
+    "credentials": "MD",
+    "department": "Internal Medicine"
+  },
+  {
+    "id": "5",
+    "name": "Lisa Thompson, NP",
+    "specialty": "Nurse Practitioner",
+    "credentials": "NP",
+    "department": "Family Medicine"
+  },
+  {
+    "id": "6",
+    "name": "Robert Davis, PA",
+    "specialty": "Physician Assistant",
+    "credentials": "PA",
+    "department": "Emergency Medicine"
+  },
+  {
+    "id": "7",
+    "name": "Dr. Jennifer Lee, MD",
+    "specialty": "Emergency Medicine",
+    "credentials": "MD",
+    "department": "Emergency Medicine"
+  },
+  {
+    "id": "8",
+    "name": "Dr. David Brown, MD",
+    "specialty": "General Practice",
+    "credentials": "MD",
+    "department": "General Practice"
+  },
+  {
+    "id": "9",
+    "name": "Amanda Garcia, NP",
+    "specialty": "Family Nurse Practitioner",
+    "credentials": "FNP",
+    "department": "Family Medicine"
+  },
+  {
+    "id": "10",
+    "name": "Dr. Christopher Martinez, MD",
+    "specialty": "Pediatrics",
+    "credentials": "MD",
+    "department": "Pediatrics"
+  },
+  {
+    "id": "11",
+    "name": "Dr. Rachel Green, MD",
+    "specialty": "Adolescent Medicine",
+    "credentials": "MD",
+    "department": "Pediatrics"
+  },
+  {
+    "id": "12",
+    "name": "Dr. Thomas Anderson, MD",
+    "specialty": "Infectious Disease",
+    "credentials": "MD",
+    "department": "Infectious Disease"
+  },
+  {
+    "id": "13",
+    "name": "Maria Lopez, NP",
+    "specialty": "Pediatric Nurse Practitioner",
+    "credentials": "PNP",
+    "department": "Pediatrics"
+  },
+  {
+    "id": "14",
+    "name": "Dr. Kevin O'Connor, MD",
+    "specialty": "Preventive Medicine",
+    "credentials": "MD",
+    "department": "Preventive Medicine"
+  },
+  {
+    "id": "15",
+    "name": "Dr. Patricia Williams, MD",
+    "specialty": "Public Health",
+    "credentials": "MD, MPH",
+    "department": "Public Health"
+  }
+] 

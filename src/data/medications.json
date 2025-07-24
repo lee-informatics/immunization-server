@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "Acetaminophen (Tylenol)",
+    "category": "Analgesic",
+    "description": "Pain reliever and fever reducer"
+  },
+  {
+    "id": "2",
+    "name": "Ibuprofen (Advil, Motrin)",
+    "category": "NSAID",
+    "description": "Anti-inflammatory pain reliever"
+  },
+  {
+    "id": "3",
+    "name": "Diphenhydramine (Benadryl)",
+    "category": "Antihistamine",
+    "description": "Allergy relief and sleep aid"
+  },
+  {
+    "id": "4",
+    "name": "Epinephrine Auto-Injector (EpiPen)",
+    "category": "Emergency",
+    "description": "Emergency treatment for severe allergic reactions"
+  },
+  {
+    "id": "5",
+    "name": "Albuterol Inhaler (Proventil, Ventolin)",
+    "category": "Bronchodilator",
+    "description": "Relieves asthma and breathing problems"
+  },
+  {
+    "id": "6",
+    "name": "Amoxicillin",
+    "category": "Antibiotic",
+    "description": "Penicillin antibiotic for bacterial infections"
+  },
+  {
+    "id": "7",
+    "name": "Azithromycin (Zithromax)",
+    "category": "Antibiotic",
+    "description": "Macrolide antibiotic for bacterial infections"
+  },
+  {
+    "id": "8",
+    "name": "Prednisone",
+    "category": "Corticosteroid",
+    "description": "Anti-inflammatory steroid medication"
+  },
+  {
+    "id": "9",
+    "name": "Omeprazole (Prilosec)",
+    "category": "Proton Pump Inhibitor",
+    "description": "Reduces stomach acid production"
+  },
+  {
+    "id": "10",
+    "name": "Loratadine (Claritin)",
+    "category": "Antihistamine",
+    "description": "Non-drowsy allergy relief"
+  },
+  {
+    "id": "11",
+    "name": "Cetirizine (Zyrtec)",
+    "category": "Antihistamine",
+    "description": "Long-acting allergy relief"
+  },
+  {
+    "id": "12",
+    "name": "Fexofenadine (Allegra)",
+    "category": "Antihistamine",
+    "description": "Non-drowsy allergy medication"
+  },
+  {
+    "id": "13",
+    "name": "Montelukast (Singulair)",
+    "category": "Leukotriene Receptor Antagonist",
+    "description": "Prevents asthma attacks and treats allergies"
+  },
+  {
+    "id": "14",
+    "name": "Fluticasone Nasal Spray (Flonase)",
+    "category": "Corticosteroid",
+    "description": "Nasal spray for allergy relief"
+  },
+  {
+    "id": "15",
+    "name": "Hydrocortisone Cream",
+    "category": "Topical Corticosteroid",
+    "description": "Topical treatment for skin inflammation"
+  }
+] 

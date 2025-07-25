@@ -5,6 +5,7 @@ import patientsRouter from './routes/patients';
 import bulkExportRouter from './routes/bulkExport';
 import allergiesRouter from './routes/allergies';
 import staticDataRouter from './routes/staticData';
+import administerRouter from './routes/administration'
 
 const app = express();
 
@@ -16,5 +17,7 @@ app.use('/api/patient-export', bulkExportRouter);
 app.use('/api/bulk-export', bulkExportRouter);
 app.use('/api/allergies', allergiesRouter);
 app.use('/api', staticDataRouter);
+app.use('/api/administer', administerRouter);
+
 
 export default app; 

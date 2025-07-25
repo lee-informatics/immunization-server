@@ -18,7 +18,6 @@ router.get('/', async (req: Request, res: Response) => {
     const allAllergies = Array.isArray(data.entry) ? data.entry.map((e: any) => e.resource) : [];
     allergyCache.data = allAllergies;
     allergyCache.timestamp = now;
-    console.log(allergyCache)
     res.json(allAllergies);
   } catch (err: any) {
     console.error('[API ERROR] /api/allergies:', err.message);

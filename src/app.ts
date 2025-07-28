@@ -1,6 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
+import path from 'path';
 import patientsRouter from './routes/patients';
 import bulkExportRouter from './routes/bulkExport';
 import allergiesRouter from './routes/allergies';
@@ -20,6 +21,8 @@ app.use('/api/bulk-export', bulkExportRouter);
 app.use('/api/allergies', allergiesRouter);
 app.use('/api', staticDataRouter);
 app.use('/api/administer', administerRouter);
+
+app.use('/exports', express.static(path.join(process.cwd(), 'exports')));
 
 app.delete('/api/cache', (req, res) => {
   console.log('[API] DELETE /api/cache - Clearing all caches');

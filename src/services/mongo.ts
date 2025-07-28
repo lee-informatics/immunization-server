@@ -1,7 +1,16 @@
 import { MongoClient, Db } from 'mongodb';
 
-const MONGO_URL = process.env.MONGO_URL || 'mongodb://localhost:27017';
-const DB_NAME = 'immunization-dashboard';
+const MONGODB_HOST = process.env.MONGODB_HOST || 'localhost';
+const MONGODB_PORT = process.env.MONGODB_PORT || '27017';
+const MONGODB_DATABASE = process.env.MONGODB_DATABASE || 'immunization-dashboard';
+const MONGODB_USERNAME = process.env.MONGODB_USERNAME || '';
+const MONGODB_PASSWORD = process.env.MONGODB_PASSWORD || '';
+
+const MONGO_URL = process.env.MONGO_URL || 
+  (MONGODB_USERNAME && MONGODB_PASSWORD 
+    ? `mongodb://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@${MONGODB_HOST}:${MONGODB_PORT}`
+    : `mongodb://${MONGODB_HOST}:${MONGODB_PORT}`);
+const DB_NAME = MONGODB_DATABASE;
 
 let mongoClient: MongoClient | undefined;
 let mongoDb: Db | undefined;

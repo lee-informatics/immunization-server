@@ -4,7 +4,7 @@
 .git
 .gitignore
 
-build/
+build
 node_modules/
 
 README.md

@@ -1,0 +1,7607 @@
+[
+  {
+    "id": "108515",
+    "name": "PROGRAF (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML tacrolimus 5 MG/ML Injection",
+    "rxnormCode": "108515",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1014678",
+    "name": "Cetirizine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cetirizine hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "1014678",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "105585",
+    "name": "Methotrexate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "methotrexate 2.5 MG Oral Tablet",
+    "rxnormCode": "105585",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049635",
+    "name": "Acetaminophen/oxyCODONE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet",
+    "rxnormCode": "1049635",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049635",
+    "name": "Acetaminophen/oxyCODONE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet",
+    "rxnormCode": "1049635",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049221",
+    "name": "Acetaminophen/oxyCODONE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet",
+    "rxnormCode": "1049221",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049221",
+    "name": "Acetaminophen/oxyCODONE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet",
+    "rxnormCode": "1049221",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049504",
+    "name": "OxyCONTIN XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "Abuse-Deterrent 12 HR oxycodone hydrochloride 10 MG Extended Release Oral Tablet",
+    "rxnormCode": "1049504",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1000126",
+    "name": "medroxyPROGESTERone (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+    "rxnormCode": "1000126",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "106892",
+    "name": "HumuLIN (Injectable)",
+    "category": "Injectable",
+    "description": "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension",
+    "rxnormCode": "106892",
+    "dosage": {
+      "dose": {
+        "value": "70",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "106892",
+    "name": "HumuLIN (Injectable)",
+    "category": "Injectable",
+    "description": "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension",
+    "rxnormCode": "106892",
+    "dosage": {
+      "dose": {
+        "value": "30",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "1014676",
+    "name": "Cetirizine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cetirizine hydrochloride 5 MG Oral Tablet",
+    "rxnormCode": "1014676",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049625",
+    "name": "PERCOCET (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "1049625",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049625",
+    "name": "PERCOCET (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "1049625",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049683",
+    "name": "oxyCODONE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "oxycodone hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "1049683",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1049630",
+    "name": "diphenhydrAMINE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "diphenhydramine hydrochloride 25 MG Oral Tablet",
+    "rxnormCode": "1049630",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1043400",
+    "name": "Acetaminophen/Dextromethorphan/Doxylamine (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+    "rxnormCode": "1043400",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg/15ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/15ml"
+      }
+    }
+  },
+  {
+    "id": "1043400",
+    "name": "Acetaminophen/Dextromethorphan/Doxylamine (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+    "rxnormCode": "1043400",
+    "dosage": {
+      "dose": {
+        "value": "15",
+        "unit": "mg/15ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/15ml"
+      }
+    }
+  },
+  {
+    "id": "1043400",
+    "name": "Acetaminophen/Dextromethorphan/Doxylamine (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+    "rxnormCode": "1043400",
+    "dosage": {
+      "dose": {
+        "value": "6.255",
+        "unit": "mg/15ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/15ml"
+      }
+    }
+  },
+  {
+    "id": "1114085",
+    "name": "Zoledronic acid (Injectable)",
+    "category": "Injectable",
+    "description": "100 ML zoledronic acid 0.04 MG/ML Injection",
+    "rxnormCode": "1114085",
+    "dosage": {
+      "dose": {
+        "value": "0.04",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1100184",
+    "name": "Donepezil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "donepezil hydrochloride 23 MG Oral Tablet",
+    "rxnormCode": "1100184",
+    "dosage": {
+      "dose": {
+        "value": "23",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1091392",
+    "name": "Methylphenidate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "methylphenidate hydrochloride 20 MG Oral Tablet",
+    "rxnormCode": "1091392",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1191222",
+    "name": "Naloxone (Injectable)",
+    "category": "Injectable",
+    "description": "naloxone hydrochloride 0.4 MG/ML Injectable Solution",
+    "rxnormCode": "1191222",
+    "dosage": {
+      "dose": {
+        "value": "0.4",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1116758",
+    "name": "Chloroquine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "chloroquine phosphate 500 MG Oral Tablet",
+    "rxnormCode": "1116758",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1359269",
+    "name": "Darunavir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "darunavir 800 MG Oral Tablet",
+    "rxnormCode": "1359269",
+    "dosage": {
+      "dose": {
+        "value": "800",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1306292",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "1306292",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1306292",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "1306292",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1306292",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "1306292",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1306292",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "1306292",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1234995",
+    "name": "Rocuronium (Injectable)",
+    "category": "Injectable",
+    "description": "rocuronium bromide 10 MG/ML Injectable Solution",
+    "rxnormCode": "1234995",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1245441",
+    "name": "VYTORIN (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet",
+    "rxnormCode": "1245441",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1245441",
+    "name": "VYTORIN (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet",
+    "rxnormCode": "1245441",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1116635",
+    "name": "Ticagrelor (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ticagrelor 90 MG Oral Tablet",
+    "rxnormCode": "1116635",
+    "dosage": {
+      "dose": {
+        "value": "90",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1243052",
+    "name": "KALYDECO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ivacaftor 150 MG Oral Tablet",
+    "rxnormCode": "1243052",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1147334",
+    "name": "Emtricitabine/Rilpivirine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "1147334",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1147334",
+    "name": "Emtricitabine/Rilpivirine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "1147334",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1147334",
+    "name": "Emtricitabine/Rilpivirine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "1147334",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1361226",
+    "name": "Heparin (Injectable)",
+    "category": "Injectable",
+    "description": "heparin sodium, porcine 1000 UNT/ML Injectable Solution",
+    "rxnormCode": "1361226",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "1361226",
+    "name": "Heparin (Injectable)",
+    "category": "Injectable",
+    "description": "heparin sodium, porcine 1000 UNT/ML Injectable Solution",
+    "rxnormCode": "1361226",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "1367439",
+    "name": "NUVARING (Vaginal)",
+    "category": "Vaginal",
+    "description": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System",
+    "rxnormCode": "1367439",
+    "dosage": {
+      "dose": {
+        "value": "0.000625",
+        "unit": "mg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/hr"
+      }
+    }
+  },
+  {
+    "id": "1367439",
+    "name": "NUVARING (Vaginal)",
+    "category": "Vaginal",
+    "description": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System",
+    "rxnormCode": "1367439",
+    "dosage": {
+      "dose": {
+        "value": "0.005",
+        "unit": "mg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/hr"
+      }
+    }
+  },
+  {
+    "id": "1363309",
+    "name": "Chlorpheniramine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "chlorpheniramine maleate 4 MG Oral Tablet",
+    "rxnormCode": "1363309",
+    "dosage": {
+      "dose": {
+        "value": "4",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1435630",
+    "name": "EPANED (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "enalapril maleate 1 MG/ML Oral Solution",
+    "rxnormCode": "1435630",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1534809",
+    "name": "Ethinyl estradiol/Norelgestromin (Transdermal)",
+    "category": "Transdermal",
+    "description": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
+    "rxnormCode": "1534809",
+    "dosage": {
+      "dose": {
+        "value": "0.00146",
+        "unit": "mg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/hr"
+      }
+    }
+  },
+  {
+    "id": "1534809",
+    "name": "Ethinyl estradiol/Norelgestromin (Transdermal)",
+    "category": "Transdermal",
+    "description": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
+    "rxnormCode": "1534809",
+    "dosage": {
+      "dose": {
+        "value": "0.00625",
+        "unit": "mg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/hr"
+      }
+    }
+  },
+  {
+    "id": "1433873",
+    "name": "Dolutegravir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "dolutegravir 50 MG Oral Tablet",
+    "rxnormCode": "1433873",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1437975",
+    "name": "GLYCATE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "glycopyrrolate 1.5 MG Oral Tablet",
+    "rxnormCode": "1437975",
+    "dosage": {
+      "dose": {
+        "value": "1.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1373463",
+    "name": "Canagliflozin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "canagliflozin 100 MG Oral Tablet",
+    "rxnormCode": "1373463",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1431987",
+    "name": "ASTAGRAF XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR tacrolimus 5 MG Extended Release Oral Capsule",
+    "rxnormCode": "1431987",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1483744",
+    "name": "Naltrexone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "naltrexone hydrochloride 50 MG Oral Tablet",
+    "rxnormCode": "1483744",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1536144",
+    "name": "ASMANEX (Inhalant)",
+    "category": "Inhalant",
+    "description": "120 ACTUAT mometasone furoate 0.1 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "1536144",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "1536148",
+    "name": "ASMANEX (Inhalant)",
+    "category": "Inhalant",
+    "description": "120 ACTUAT mometasone furoate 0.2 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "1536148",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "1547660",
+    "name": "ARNUITY (Inhalant)",
+    "category": "Inhalant",
+    "description": "30 ACTUAT fluticasone furoate 0.1 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "1547660",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "1547672",
+    "name": "ARNUITY (Inhalant)",
+    "category": "Inhalant",
+    "description": "30 ACTUAT fluticasone furoate 0.2 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "1547672",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "1601380",
+    "name": "Palbociclib (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "palbociclib 100 MG Oral Capsule",
+    "rxnormCode": "1601380",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1599803",
+    "name": "Donepezil/Memantine XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR donepezil hydrochloride 10 MG / memantine hydrochloride 28 MG Extended Release Oral Capsule",
+    "rxnormCode": "1599803",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1599803",
+    "name": "Donepezil/Memantine XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR donepezil hydrochloride 10 MG / memantine hydrochloride 28 MG Extended Release Oral Capsule",
+    "rxnormCode": "1599803",
+    "dosage": {
+      "dose": {
+        "value": "28",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1656346",
+    "name": "ENTRESTO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+    "rxnormCode": "1656346",
+    "dosage": {
+      "dose": {
+        "value": "24",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1656346",
+    "name": "ENTRESTO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+    "rxnormCode": "1656346",
+    "dosage": {
+      "dose": {
+        "value": "26",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1605257",
+    "name": "LILETTA (Intrauterine)",
+    "category": "Intrauterine",
+    "description": "levonorgestrel 0.000813 MG/HR Intrauterine System",
+    "rxnormCode": "1605257",
+    "dosage": {
+      "dose": {
+        "value": "0.81",
+        "unit": "mcg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/hr"
+      }
+    }
+  },
+  {
+    "id": "1652673",
+    "name": "Doxycycline (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "doxycycline monohydrate 50 MG Oral Tablet",
+    "rxnormCode": "1652673",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1649485",
+    "name": "Ivabradine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ivabradine 5 MG Oral Tablet",
+    "rxnormCode": "1649485",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1650142",
+    "name": "Doxycycline (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "doxycycline monohydrate 100 MG Oral Tablet",
+    "rxnormCode": "1650142",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1656318",
+    "name": "Cefotaxime (Injectable)",
+    "category": "Injectable",
+    "description": "cefotaxime 2000 MG Injection",
+    "rxnormCode": "1656318",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1656318",
+    "name": "Cefotaxime (Injectable)",
+    "category": "Injectable",
+    "description": "cefotaxime 2000 MG Injection",
+    "rxnormCode": "1656318",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1656351",
+    "name": "ENTRESTO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sacubitril 49 MG / valsartan 51 MG Oral Tablet",
+    "rxnormCode": "1656351",
+    "dosage": {
+      "dose": {
+        "value": "49",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1656351",
+    "name": "ENTRESTO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sacubitril 49 MG / valsartan 51 MG Oral Tablet",
+    "rxnormCode": "1656351",
+    "dosage": {
+      "dose": {
+        "value": "51",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1648755",
+    "name": "Nitrofurantoin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "nitrofurantoin, macrocrystals 25 MG / nitrofurantoin, monohydrate 75 MG Oral Capsule",
+    "rxnormCode": "1648755",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1648755",
+    "name": "Nitrofurantoin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "nitrofurantoin, macrocrystals 25 MG / nitrofurantoin, monohydrate 75 MG Oral Capsule",
+    "rxnormCode": "1648755",
+    "dosage": {
+      "dose": {
+        "value": "75",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1657981",
+    "name": "Tocilizumab (Injectable)",
+    "category": "Injectable",
+    "description": "20 ML tocilizumab 20 MG/ML Injection",
+    "rxnormCode": "1657981",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1656356",
+    "name": "ENTRESTO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sacubitril 97 MG / valsartan 103 MG Oral Tablet",
+    "rxnormCode": "1656356",
+    "dosage": {
+      "dose": {
+        "value": "97",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1656356",
+    "name": "ENTRESTO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sacubitril 97 MG / valsartan 103 MG Oral Tablet",
+    "rxnormCode": "1656356",
+    "dosage": {
+      "dose": {
+        "value": "103",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1658084",
+    "name": "Trastuzumab (Injectable)",
+    "category": "Injectable",
+    "description": "ado-trastuzumab emtansine 100 MG Injection",
+    "rxnormCode": "1658084",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1659131",
+    "name": "Piperacillin/Tazobactam (Injectable)",
+    "category": "Injectable",
+    "description": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+    "rxnormCode": "1659131",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1659131",
+    "name": "Piperacillin/Tazobactam (Injectable)",
+    "category": "Injectable",
+    "description": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+    "rxnormCode": "1659131",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1659131",
+    "name": "Piperacillin/Tazobactam (Injectable)",
+    "category": "Injectable",
+    "description": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+    "rxnormCode": "1659131",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1659263",
+    "name": "Heparin (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML heparin sodium, porcine 5000 UNT/ML Injection",
+    "rxnormCode": "1659263",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "1659263",
+    "name": "Heparin (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML heparin sodium, porcine 5000 UNT/ML Injection",
+    "rxnormCode": "1659263",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "1659149",
+    "name": "Piperacillin/Tazobactam (Injectable)",
+    "category": "Injectable",
+    "description": "piperacillin 4000 MG / tazobactam 500 MG Injection",
+    "rxnormCode": "1659149",
+    "dosage": {
+      "dose": {
+        "value": "4",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1659149",
+    "name": "Piperacillin/Tazobactam (Injectable)",
+    "category": "Injectable",
+    "description": "piperacillin 4000 MG / tazobactam 500 MG Injection",
+    "rxnormCode": "1659149",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1659149",
+    "name": "Piperacillin/Tazobactam (Injectable)",
+    "category": "Injectable",
+    "description": "piperacillin 4000 MG / tazobactam 500 MG Injection",
+    "rxnormCode": "1659149",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1665060",
+    "name": "ceFAZolin (Injectable)",
+    "category": "Injectable",
+    "description": "cefazolin 2000 MG Injection",
+    "rxnormCode": "1665060",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1665060",
+    "name": "ceFAZolin (Injectable)",
+    "category": "Injectable",
+    "description": "cefazolin 2000 MG Injection",
+    "rxnormCode": "1665060",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1732136",
+    "name": "Morphine (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML morphine sulfate 5 MG/ML Injection",
+    "rxnormCode": "1732136",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1664986",
+    "name": "Aztreonam (Injectable)",
+    "category": "Injectable",
+    "description": "aztreonam 2000 MG Injection",
+    "rxnormCode": "1664986",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "g",
+        "system": "http://unitsofmeasure.org",
+        "code": "g"
+      }
+    }
+  },
+  {
+    "id": "1729584",
+    "name": "Remifentanil (Injectable)",
+    "category": "Injectable",
+    "description": "remifentanil 2 MG Injection",
+    "rxnormCode": "1729584",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1719286",
+    "name": "Furosemide (Injectable)",
+    "category": "Injectable",
+    "description": "10 ML furosemide 10 MG/ML Injection",
+    "rxnormCode": "1719286",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1664463",
+    "name": "ENVARSUS XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR tacrolimus 1 MG Extended Release Oral Tablet",
+    "rxnormCode": "1664463",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1665021",
+    "name": "cefTRIAXone (Injectable)",
+    "category": "Injectable",
+    "description": "ceftriaxone 1000 MG Injection",
+    "rxnormCode": "1665021",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1665021",
+    "name": "cefTRIAXone (Injectable)",
+    "category": "Injectable",
+    "description": "ceftriaxone 1000 MG Injection",
+    "rxnormCode": "1665021",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1721613",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet",
+    "rxnormCode": "1721613",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1721613",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet",
+    "rxnormCode": "1721613",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1721613",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet",
+    "rxnormCode": "1721613",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1721613",
+    "name": "Cobicistat/Elvitegravir/Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet",
+    "rxnormCode": "1721613",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1732186",
+    "name": "epiRUBicin (Injectable)",
+    "category": "Injectable",
+    "description": "100 ML epirubicin hydrochloride 2 MG/ML Injection",
+    "rxnormCode": "1732186",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1734919",
+    "name": "cycloPHOSphamide (Injectable)",
+    "category": "Injectable",
+    "description": "cyclophosphamide 1000 MG Injection",
+    "rxnormCode": "1734919",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1734919",
+    "name": "cycloPHOSphamide (Injectable)",
+    "category": "Injectable",
+    "description": "cyclophosphamide 1000 MG Injection",
+    "rxnormCode": "1734919",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1736776",
+    "name": "Oxaliplatin (Injectable)",
+    "category": "Injectable",
+    "description": "10 ML oxaliplatin 5 MG/ML Injection",
+    "rxnormCode": "1736776",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1736854",
+    "name": "CISplatin (Injectable)",
+    "category": "Injectable",
+    "description": "cisplatin 50 MG Injection",
+    "rxnormCode": "1736854",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1735006",
+    "name": "fentaNYL (Injectable)",
+    "category": "Injectable",
+    "description": "10 ML fentanyl 0.05 MG/ML Injection",
+    "rxnormCode": "1735006",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mcg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/ml"
+      }
+    }
+  },
+  {
+    "id": "1737466",
+    "name": "Tirofiban (Injectable)",
+    "category": "Injectable",
+    "description": "100 ML tirofiban 0.05 MG/ML Injection",
+    "rxnormCode": "1737466",
+    "dosage": {
+      "dose": {
+        "value": "0.05",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1740467",
+    "name": "Ondansetron (Injectable)",
+    "category": "Injectable",
+    "description": "2 ML ondansetron 2 MG/ML Injection",
+    "rxnormCode": "1740467",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1737449",
+    "name": "Pamidronate (Injectable)",
+    "category": "Injectable",
+    "description": "10 ML pamidronate disodium 3 MG/ML Injection",
+    "rxnormCode": "1737449",
+    "dosage": {
+      "dose": {
+        "value": "3",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1789958",
+    "name": "DYSPORT (Injectable)",
+    "category": "Injectable",
+    "description": "abobotulinumtoxinA 300 UNT Injection",
+    "rxnormCode": "1789958",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "unt",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt"
+      }
+    }
+  },
+  {
+    "id": "1804799",
+    "name": "Alteplase (Injectable)",
+    "category": "Injectable",
+    "description": "alteplase 100 MG Injection",
+    "rxnormCode": "1804799",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1803932",
+    "name": "Leucovorin (Injectable)",
+    "category": "Injectable",
+    "description": "leucovorin 100 MG Injection",
+    "rxnormCode": "1803932",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1796676",
+    "name": "Protamine sulfate (USP) (Injectable)",
+    "category": "Injectable",
+    "description": "25 ML protamine sulfate (USP) 10 MG/ML Injection",
+    "rxnormCode": "1796676",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1806890",
+    "name": "QBRELIS (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "lisinopril 1 MG/ML Oral Solution",
+    "rxnormCode": "1806890",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1791701",
+    "name": "Fluorouracil (Injectable)",
+    "category": "Injectable",
+    "description": "10 ML fluorouracil 50 MG/ML Injection",
+    "rxnormCode": "1791701",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1747691",
+    "name": "Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
+    "rxnormCode": "1747691",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1747691",
+    "name": "Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
+    "rxnormCode": "1747691",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1790099",
+    "name": "DOXOrubicin (Injectable)",
+    "category": "Injectable",
+    "description": "10 ML doxorubicin hydrochloride 2 MG/ML Injection",
+    "rxnormCode": "1790099",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1807510",
+    "name": "Vancomycin (Injectable)",
+    "category": "Injectable",
+    "description": "150 ML vancomycin 5 MG/ML Injection",
+    "rxnormCode": "1807510",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1807513",
+    "name": "Vancomycin (Injectable)",
+    "category": "Injectable",
+    "description": "vancomycin 1000 MG Injection",
+    "rxnormCode": "1807513",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1807513",
+    "name": "Vancomycin (Injectable)",
+    "category": "Injectable",
+    "description": "vancomycin 1000 MG Injection",
+    "rxnormCode": "1807513",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1808217",
+    "name": "Propofol (Injectable)",
+    "category": "Injectable",
+    "description": "100 ML propofol 10 MG/ML Injection",
+    "rxnormCode": "1808217",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1809104",
+    "name": "SUFentanil (Injectable)",
+    "category": "Injectable",
+    "description": "5 ML sufentanil 0.05 MG/ML Injection",
+    "rxnormCode": "1809104",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mcg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/ml"
+      }
+    }
+  },
+  {
+    "id": "1860480",
+    "name": "DOCEtaxel (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML docetaxel 20 MG/ML Injection",
+    "rxnormCode": "1860480",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1856546",
+    "name": "KYLEENA (Intrauterine)",
+    "category": "Intrauterine",
+    "description": "levonorgestrel 0.000729 MG/HR Intrauterine System",
+    "rxnormCode": "1856546",
+    "dosage": {
+      "dose": {
+        "value": "0.73",
+        "unit": "mcg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/hr"
+      }
+    }
+  },
+  {
+    "id": "1860154",
+    "name": "oxyCODONE XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "Abuse-Deterrent 12 HR oxycodone hydrochloride 15 MG Extended Release Oral Tablet",
+    "rxnormCode": "1860154",
+    "dosage": {
+      "dose": {
+        "value": "15",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197319",
+    "name": "Allopurinol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "allopurinol 100 MG Oral Tablet",
+    "rxnormCode": "197319",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1940648",
+    "name": "Neratinib (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "neratinib 40 MG Oral Tablet",
+    "rxnormCode": "1940648",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1873983",
+    "name": "Ribociclib (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ribociclib 200 MG Oral Tablet",
+    "rxnormCode": "1873983",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1860491",
+    "name": "HYDROcodone XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "12 HR hydrocodone bitartrate 10 MG Extended Release Oral Capsule",
+    "rxnormCode": "1860491",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1946840",
+    "name": "VERZENIO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "abemaciclib 100 MG Oral Tablet",
+    "rxnormCode": "1946840",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197379",
+    "name": "Atenolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atenolol 100 MG Oral Tablet",
+    "rxnormCode": "197379",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1870230",
+    "name": "EPINEPHrine (Injectable)",
+    "category": "Injectable",
+    "description": "NDA020800 0.3 ML epinephrine 1 MG/ML Auto-Injector",
+    "rxnormCode": "1870230",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "197380",
+    "name": "Atenolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atenolol 25 MG Oral Tablet",
+    "rxnormCode": "197380",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197381",
+    "name": "Atenolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atenolol 50 MG Oral Tablet",
+    "rxnormCode": "197381",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197454",
+    "name": "Cephalexin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cephalexin 500 MG Oral Tablet",
+    "rxnormCode": "197454",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197511",
+    "name": "Ciprofloxacin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ciprofloxacin 250 MG Oral Tablet",
+    "rxnormCode": "197511",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197558",
+    "name": "Dapsone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "dapsone 25 MG Oral Tablet",
+    "rxnormCode": "197558",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197541",
+    "name": "Colchicine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "colchicine 0.6 MG Oral Tablet",
+    "rxnormCode": "197541",
+    "dosage": {
+      "dose": {
+        "value": "0.6",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197517",
+    "name": "Clarithromycin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "clarithromycin 500 MG Oral Tablet",
+    "rxnormCode": "197517",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197591",
+    "name": "diazePAM (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "diazepam 5 MG Oral Tablet",
+    "rxnormCode": "197591",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197604",
+    "name": "Digoxin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "digoxin 0.125 MG Oral Tablet",
+    "rxnormCode": "197604",
+    "dosage": {
+      "dose": {
+        "value": "0.125",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197887",
+    "name": "hydroCHLOROthiazide/Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / lisinopril 20 MG Oral Tablet",
+    "rxnormCode": "197887",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197887",
+    "name": "hydroCHLOROthiazide/Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / lisinopril 20 MG Oral Tablet",
+    "rxnormCode": "197887",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197886",
+    "name": "hydroCHLOROthiazide/Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / lisinopril 20 MG Oral Tablet",
+    "rxnormCode": "197886",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197886",
+    "name": "hydroCHLOROthiazide/Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / lisinopril 20 MG Oral Tablet",
+    "rxnormCode": "197886",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197903",
+    "name": "Lovastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lovastatin 10 MG Oral Tablet",
+    "rxnormCode": "197903",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197904",
+    "name": "Lovastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lovastatin 20 MG Oral Tablet",
+    "rxnormCode": "197904",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197885",
+    "name": "hydroCHLOROthiazide/Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / lisinopril 10 MG Oral Tablet",
+    "rxnormCode": "197885",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197885",
+    "name": "hydroCHLOROthiazide/Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / lisinopril 10 MG Oral Tablet",
+    "rxnormCode": "197885",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197884",
+    "name": "Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lisinopril 40 MG Oral Tablet",
+    "rxnormCode": "197884",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197862",
+    "name": "Leucovorin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "leucovorin 25 MG Oral Tablet",
+    "rxnormCode": "197862",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198014",
+    "name": "Naproxen (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "naproxen 500 MG Oral Tablet",
+    "rxnormCode": "198014",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "197905",
+    "name": "Lovastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lovastatin 40 MG Oral Tablet",
+    "rxnormCode": "197905",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198211",
+    "name": "Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "simvastatin 40 MG Oral Tablet",
+    "rxnormCode": "198211",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198039",
+    "name": "Nitroglycerin (Sublingual)",
+    "category": "Sublingual",
+    "description": "nitroglycerin 0.4 MG Sublingual Tablet",
+    "rxnormCode": "198039",
+    "dosage": {
+      "dose": {
+        "value": "0.4",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198188",
+    "name": "Ramipril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ramipril 2.5 MG Oral Capsule",
+    "rxnormCode": "198188",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198189",
+    "name": "Ramipril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ramipril 5 MG Oral Capsule",
+    "rxnormCode": "198189",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198182",
+    "name": "Pyrimethamine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pyrimethamine 25 MG Oral Tablet",
+    "rxnormCode": "198182",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198031",
+    "name": "Nicotine (Transdermal)",
+    "category": "Transdermal",
+    "description": "24 HR nicotine 0.292 MG/HR Transdermal System",
+    "rxnormCode": "198031",
+    "dosage": {
+      "dose": {
+        "value": "7",
+        "unit": "mg/24 hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/24 hr"
+      }
+    }
+  },
+  {
+    "id": "198240",
+    "name": "Tamoxifen (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "tamoxifen 10 MG Oral Tablet",
+    "rxnormCode": "198240",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "199224",
+    "name": "Anastrozole (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "anastrozole 1 MG Oral Tablet",
+    "rxnormCode": "199224",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198405",
+    "name": "Ibuprofen (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ibuprofen 100 MG Oral Tablet",
+    "rxnormCode": "198405",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198334",
+    "name": "Sulfamethoxazole/Trimethoprim (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sulfamethoxazole 400 MG / trimethoprim 80 MG Oral Tablet",
+    "rxnormCode": "198334",
+    "dosage": {
+      "dose": {
+        "value": "400",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198334",
+    "name": "Sulfamethoxazole/Trimethoprim (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sulfamethoxazole 400 MG / trimethoprim 80 MG Oral Tablet",
+    "rxnormCode": "198334",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198767",
+    "name": "Pancreatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pancreatin 600 MG Oral Tablet",
+    "rxnormCode": "198767",
+    "dosage": {
+      "dose": {
+        "value": "600",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198335",
+    "name": "Sulfamethoxazole/Trimethoprim (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sulfamethoxazole 800 MG / trimethoprim 160 MG Oral Tablet",
+    "rxnormCode": "198335",
+    "dosage": {
+      "dose": {
+        "value": "800",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198335",
+    "name": "Sulfamethoxazole/Trimethoprim (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sulfamethoxazole 800 MG / trimethoprim 160 MG Oral Tablet",
+    "rxnormCode": "198335",
+    "dosage": {
+      "dose": {
+        "value": "160",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "199663",
+    "name": "Zidovudine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "zidovudine 300 MG Oral Tablet",
+    "rxnormCode": "199663",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "198440",
+    "name": "Acetaminophen (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 500 MG Oral Tablet",
+    "rxnormCode": "198440",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1997015",
+    "name": "Bivalirudin (Injectable)",
+    "category": "Injectable",
+    "description": "50 ML bivalirudin 5 MG/ML Injection",
+    "rxnormCode": "1997015",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "1998772",
+    "name": "QVAR (Inhalant)",
+    "category": "Inhalant",
+    "description": "Breath-Actuated 120 ACTUAT beclomethasone dipropionate 0.08 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "1998772",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "1998774",
+    "name": "QVAR (Inhalant)",
+    "category": "Inhalant",
+    "description": "Breath-Actuated 120 ACTUAT beclomethasone dipropionate 0.04 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "1998774",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "200082",
+    "name": "lamiVUDine/Zidovudine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
+    "rxnormCode": "200082",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200082",
+    "name": "lamiVUDine/Zidovudine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
+    "rxnormCode": "200082",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200094",
+    "name": "Irbesartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "irbesartan 75 MG Oral Tablet",
+    "rxnormCode": "200094",
+    "dosage": {
+      "dose": {
+        "value": "75",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200243",
+    "name": "Sevoflurane (Inhalant)",
+    "category": "Inhalant",
+    "description": "sevoflurane 1000 MG/ML Inhalation Solution",
+    "rxnormCode": "200243",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "g/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "g/ml"
+      }
+    }
+  },
+  {
+    "id": "200095",
+    "name": "Irbesartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "irbesartan 150 MG Oral Tablet",
+    "rxnormCode": "200095",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200031",
+    "name": "Carvedilol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "carvedilol 6.25 MG Oral Tablet",
+    "rxnormCode": "200031",
+    "dosage": {
+      "dose": {
+        "value": "6.25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200064",
+    "name": "Letrozole (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "letrozole 2.5 MG Oral Tablet",
+    "rxnormCode": "200064",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200033",
+    "name": "Carvedilol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "carvedilol 25 MG Oral Tablet",
+    "rxnormCode": "200033",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1999667",
+    "name": "Bictegravir/Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bictegravir 50 MG / emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
+    "rxnormCode": "1999667",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1999667",
+    "name": "Bictegravir/Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bictegravir 50 MG / emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
+    "rxnormCode": "1999667",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "1999667",
+    "name": "Bictegravir/Emtricitabine/Tenofovir alafenamide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bictegravir 50 MG / emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
+    "rxnormCode": "1999667",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200096",
+    "name": "Irbesartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "irbesartan 300 MG Oral Tablet",
+    "rxnormCode": "200096",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200032",
+    "name": "Carvedilol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "carvedilol 12.5 MG Oral Tablet",
+    "rxnormCode": "200032",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "199885",
+    "name": "levoFLOXacin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "levofloxacin 500 MG Oral Tablet",
+    "rxnormCode": "199885",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200284",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / valsartan 80 MG Oral Tablet",
+    "rxnormCode": "200284",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200284",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / valsartan 80 MG Oral Tablet",
+    "rxnormCode": "200284",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200285",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet",
+    "rxnormCode": "200285",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200285",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet",
+    "rxnormCode": "200285",
+    "dosage": {
+      "dose": {
+        "value": "160",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200345",
+    "name": "Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "simvastatin 80 MG Oral Tablet",
+    "rxnormCode": "200345",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2003249",
+    "name": "lamiVUDine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "2003249",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2003249",
+    "name": "lamiVUDine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "2003249",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "205532",
+    "name": "PULMOZYME (Inhalant)",
+    "category": "Inhalant",
+    "description": "dornase alfa 1 MG/ML Inhalation Solution",
+    "rxnormCode": "205532",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "205304",
+    "name": "Telmisartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "telmisartan 40 MG Oral Tablet",
+    "rxnormCode": "205304",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2047241",
+    "name": "Baricitinib (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "baricitinib 2 MG Oral Tablet",
+    "rxnormCode": "2047241",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "200349",
+    "name": "Eptifibatide (Injectable)",
+    "category": "Injectable",
+    "description": "100 ML eptifibatide 0.75 MG/ML Injection",
+    "rxnormCode": "200349",
+    "dosage": {
+      "dose": {
+        "value": "0.75",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "200346",
+    "name": "Cefdinir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cefdinir 300 MG Oral Capsule",
+    "rxnormCode": "200346",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "205305",
+    "name": "Telmisartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "telmisartan 80 MG Oral Tablet",
+    "rxnormCode": "205305",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "205923",
+    "name": "EPOGEN (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML epoetin alfa 4000 UNT/ML Injection",
+    "rxnormCode": "205923",
+    "dosage": {
+      "dose": {
+        "value": "4",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "205923",
+    "name": "EPOGEN (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML epoetin alfa 4000 UNT/ML Injection",
+    "rxnormCode": "205923",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "204844",
+    "name": "Azithromycin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "azithromycin 600 MG Oral Tablet",
+    "rxnormCode": "204844",
+    "dosage": {
+      "dose": {
+        "value": "600",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "205326",
+    "name": "Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lisinopril 30 MG Oral Tablet",
+    "rxnormCode": "205326",
+    "dosage": {
+      "dose": {
+        "value": "30",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "209387",
+    "name": "TYLENOL (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG Oral Tablet",
+    "rxnormCode": "209387",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "206905",
+    "name": "IBU (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ibuprofen 400 MG Oral Tablet",
+    "rxnormCode": "206905",
+    "dosage": {
+      "dose": {
+        "value": "400",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2119714",
+    "name": "Hyaluronidase/Trastuzumab (Injectable)",
+    "category": "Injectable",
+    "description": "5 ML hyaluronidase-oysk 2000 UNT/ML / trastuzumab-oysk 120 MG/ML Injection",
+    "rxnormCode": "2119714",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "var units/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "var units/5ml"
+      }
+    }
+  },
+  {
+    "id": "2119714",
+    "name": "Hyaluronidase/Trastuzumab (Injectable)",
+    "category": "Injectable",
+    "description": "5 ML hyaluronidase-oysk 2000 UNT/ML / trastuzumab-oysk 120 MG/ML Injection",
+    "rxnormCode": "2119714",
+    "dosage": {
+      "dose": {
+        "value": "000",
+        "unit": "var units/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "var units/5ml"
+      }
+    }
+  },
+  {
+    "id": "2119714",
+    "name": "Hyaluronidase/Trastuzumab (Injectable)",
+    "category": "Injectable",
+    "description": "5 ML hyaluronidase-oysk 2000 UNT/ML / trastuzumab-oysk 120 MG/ML Injection",
+    "rxnormCode": "2119714",
+    "dosage": {
+      "dose": {
+        "value": "600",
+        "unit": "var units/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "var units/5ml"
+      }
+    }
+  },
+  {
+    "id": "2103182",
+    "name": "Vasopressin (USP) (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML vasopressin (USP) 20 UNT/ML Injection",
+    "rxnormCode": "2103182",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "212033",
+    "name": "Aspirin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "aspirin 325 MG Oral Tablet",
+    "rxnormCode": "212033",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2122519",
+    "name": "Dolutegravir/lamiVUDine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+    "rxnormCode": "2122519",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2122519",
+    "name": "Dolutegravir/lamiVUDine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+    "rxnormCode": "2122519",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "212389",
+    "name": "COREG (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "carvedilol 12.5 MG Oral Tablet",
+    "rxnormCode": "212389",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "212446",
+    "name": "ZITHROMAX (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "azithromycin 250 MG Oral Tablet",
+    "rxnormCode": "212446",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2123111",
+    "name": "Albuterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "NDA020503 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "2123111",
+    "dosage": {
+      "dose": {
+        "value": "90",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "212390",
+    "name": "COREG (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "carvedilol 25 MG Oral Tablet",
+    "rxnormCode": "212390",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "212388",
+    "name": "COREG (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "carvedilol 6.25 MG Oral Tablet",
+    "rxnormCode": "212388",
+    "dosage": {
+      "dose": {
+        "value": "6.25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "213432",
+    "name": "MICARDIS (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "telmisartan 80 MG Oral Tablet",
+    "rxnormCode": "213432",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "226719",
+    "name": "ETOPOPHOS (Injectable)",
+    "category": "Injectable",
+    "description": "etoposide 100 MG Injection",
+    "rxnormCode": "226719",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "238100",
+    "name": "LORazepam (Injectable)",
+    "category": "Injectable",
+    "description": "lorazepam 2 MG/ML Injectable Solution",
+    "rxnormCode": "238100",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "2284960",
+    "name": "Remdesivir (Injectable)",
+    "category": "Injectable",
+    "description": "remdesivir 100 MG Injection",
+    "rxnormCode": "2284960",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "245134",
+    "name": "fentaNYL (Transdermal)",
+    "category": "Transdermal",
+    "description": "72 HR fentanyl 0.025 MG/HR Transdermal System",
+    "rxnormCode": "245134",
+    "dosage": {
+      "dose": {
+        "value": "0.025",
+        "unit": "mg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/hr"
+      }
+    }
+  },
+  {
+    "id": "242754",
+    "name": "Levalbuterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "levalbuterol 0.417 MG/ML Inhalation Solution",
+    "rxnormCode": "242754",
+    "dosage": {
+      "dose": {
+        "value": "0.417",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "245314",
+    "name": "Albuterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "albuterol 5 MG/ML Inhalation Solution",
+    "rxnormCode": "245314",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "242969",
+    "name": "Norepinephrine (Injectable)",
+    "category": "Injectable",
+    "description": "4 ML norepinephrine 1 MG/ML Injection",
+    "rxnormCode": "242969",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "243670",
+    "name": "Aspirin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "aspirin 81 MG Oral Tablet",
+    "rxnormCode": "243670",
+    "dosage": {
+      "dose": {
+        "value": "81",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "252559",
+    "name": "Budesonide (Inhalant)",
+    "category": "Inhalant",
+    "description": "budesonide 0.5 MG/ML Inhalation Suspension",
+    "rxnormCode": "252559",
+    "dosage": {
+      "dose": {
+        "value": "0.5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "241834",
+    "name": "cycloSPORINE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cyclosporine, modified 100 MG Oral Capsule",
+    "rxnormCode": "241834",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "2563431",
+    "name": "VAZALORE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "aspirin 81 MG Oral Capsule",
+    "rxnormCode": "2563431",
+    "dosage": {
+      "dose": {
+        "value": "81",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "259255",
+    "name": "Atorvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atorvastatin 80 MG Oral Tablet",
+    "rxnormCode": "259255",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "282755",
+    "name": "Telmisartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "telmisartan 20 MG Oral Tablet",
+    "rxnormCode": "282755",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "261962",
+    "name": "Ramipril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ramipril 10 MG Oral Capsule",
+    "rxnormCode": "261962",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "284215",
+    "name": "Clindamycin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "clindamycin 300 MG Oral Capsule",
+    "rxnormCode": "284215",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "284531",
+    "name": "MICARDIS (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "telmisartan 20 MG Oral Tablet",
+    "rxnormCode": "284531",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "284988",
+    "name": "Didanosine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "didanosine 400 MG Delayed Release Oral Capsule",
+    "rxnormCode": "284988",
+    "dosage": {
+      "dose": {
+        "value": "400",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "309043",
+    "name": "Cefaclor XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "12 HR cefaclor 500 MG Extended Release Oral Tablet",
+    "rxnormCode": "309043",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "308182",
+    "name": "Amoxicillin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 250 MG Oral Capsule",
+    "rxnormCode": "308182",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "308429",
+    "name": "Atovaquone (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "atovaquone 150 MG/ML Oral Suspension",
+    "rxnormCode": "308429",
+    "dosage": {
+      "dose": {
+        "value": "750",
+        "unit": "mg/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/5ml"
+      }
+    }
+  },
+  {
+    "id": "308136",
+    "name": "amLODIPine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 2.5 MG Oral Tablet",
+    "rxnormCode": "308136",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "309045",
+    "name": "Cefaclor (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cefaclor 250 MG Oral Capsule",
+    "rxnormCode": "309045",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "308460",
+    "name": "Azithromycin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "azithromycin 250 MG Oral Tablet",
+    "rxnormCode": "308460",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "308192",
+    "name": "Amoxicillin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 500 MG Oral Tablet",
+    "rxnormCode": "308192",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "308971",
+    "name": "TEGRETOL (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "carbamazepine 20 MG/ML Oral Suspension",
+    "rxnormCode": "308971",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/5ml"
+      }
+    }
+  },
+  {
+    "id": "309076",
+    "name": "Cefpodoxime (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cefpodoxime 100 MG Oral Tablet",
+    "rxnormCode": "309076",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "309078",
+    "name": "Cefpodoxime (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cefpodoxime 200 MG Oral Tablet",
+    "rxnormCode": "309078",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "309097",
+    "name": "Cefuroxime (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "cefuroxime 250 MG Oral Tablet",
+    "rxnormCode": "309097",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "309309",
+    "name": "Ciprofloxacin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ciprofloxacin 500 MG Oral Tablet",
+    "rxnormCode": "309309",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "309845",
+    "name": "diazePAM (Injectable)",
+    "category": "Injectable",
+    "description": "diazepam 5 MG/ML Injectable Solution",
+    "rxnormCode": "309845",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "310261",
+    "name": "Exemestane (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "exemestane 25 MG Oral Tablet",
+    "rxnormCode": "310261",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "309362",
+    "name": "Clopidogrel (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "clopidogrel 75 MG Oral Tablet",
+    "rxnormCode": "309362",
+    "dosage": {
+      "dose": {
+        "value": "75",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "311034",
+    "name": "Insulin, human regular (Injectable)",
+    "category": "Injectable",
+    "description": "insulin, regular, human 100 UNT/ML Injectable Solution",
+    "rxnormCode": "311034",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "310798",
+    "name": "hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG Oral Tablet",
+    "rxnormCode": "310798",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "310436",
+    "name": "Galantamine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "galantamine 4 MG Oral Tablet",
+    "rxnormCode": "310436",
+    "dosage": {
+      "dose": {
+        "value": "4",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "311353",
+    "name": "Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lisinopril 2.5 MG Oral Tablet",
+    "rxnormCode": "311353",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "310325",
+    "name": "Ferrous sulfate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ferrous sulfate 325 MG Oral Tablet",
+    "rxnormCode": "310325",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "310385",
+    "name": "FLUoxetine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "fluoxetine 20 MG Oral Capsule",
+    "rxnormCode": "310385",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "311354",
+    "name": "Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lisinopril 5 MG Oral Tablet",
+    "rxnormCode": "311354",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "310965",
+    "name": "Ibuprofen (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ibuprofen 200 MG Oral Tablet",
+    "rxnormCode": "310965",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "311372",
+    "name": "Loratadine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "loratadine 10 MG Oral Tablet",
+    "rxnormCode": "311372",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "311700",
+    "name": "Midazolam (Injectable)",
+    "category": "Injectable",
+    "description": "midazolam 1 MG/ML Injectable Solution",
+    "rxnormCode": "311700",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "312615",
+    "name": "predniSONE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "prednisone 20 MG Oral Tablet",
+    "rxnormCode": "312615",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "312617",
+    "name": "predniSONE (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "prednisone 5 MG Oral Tablet",
+    "rxnormCode": "312617",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "312750",
+    "name": "Quinapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "quinapril 5 MG Oral Tablet",
+    "rxnormCode": "312750",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "312749",
+    "name": "Quinapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "quinapril 20 MG Oral Tablet",
+    "rxnormCode": "312749",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "312748",
+    "name": "Quinapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "quinapril 10 MG Oral Tablet",
+    "rxnormCode": "312748",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "312962",
+    "name": "Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "simvastatin 5 MG Oral Tablet",
+    "rxnormCode": "312962",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "313110",
+    "name": "Stavudine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "stavudine 40 MG Oral Capsule",
+    "rxnormCode": "313110",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "313572",
+    "name": "Vancomycin (Injectable)",
+    "category": "Injectable",
+    "description": "vancomycin 50 MG/ML Injectable Solution",
+    "rxnormCode": "313572",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "312938",
+    "name": "Sertraline (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sertraline 100 MG Oral Tablet",
+    "rxnormCode": "312938",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "313002",
+    "name": "Sodium chloride (Injectable)",
+    "category": "Injectable",
+    "description": "sodium chloride 9 MG/ML Injectable Solution",
+    "rxnormCode": "313002",
+    "dosage": {
+      "dose": {
+        "value": "9",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "313212",
+    "name": "Tenecteplase (Injectable)",
+    "category": "Injectable",
+    "description": "tenecteplase 50 MG Injection",
+    "rxnormCode": "313212",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "313096",
+    "name": "Spironolactone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "spironolactone 25 MG Oral Tablet",
+    "rxnormCode": "313096",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "312961",
+    "name": "Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "simvastatin 20 MG Oral Tablet",
+    "rxnormCode": "312961",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "313782",
+    "name": "Acetaminophen (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG Oral Tablet",
+    "rxnormCode": "313782",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "313820",
+    "name": "Acetaminophen (Chewable)",
+    "category": "Chewable",
+    "description": "acetaminophen 160 MG Chewable Tablet",
+    "rxnormCode": "313820",
+    "dosage": {
+      "dose": {
+        "value": "160",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "313988",
+    "name": "Furosemide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "furosemide 40 MG Oral Tablet",
+    "rxnormCode": "313988",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "314077",
+    "name": "Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lisinopril 20 MG Oral Tablet",
+    "rxnormCode": "314077",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "314076",
+    "name": "Lisinopril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lisinopril 10 MG Oral Tablet",
+    "rxnormCode": "314076",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "314203",
+    "name": "Quinapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "quinapril 40 MG Oral Tablet",
+    "rxnormCode": "314203",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "317150",
+    "name": "Ritonavir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ritonavir 100 MG Oral Capsule",
+    "rxnormCode": "317150",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349353",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / valsartan 160 MG Oral Tablet",
+    "rxnormCode": "349353",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349353",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / valsartan 160 MG Oral Tablet",
+    "rxnormCode": "349353",
+    "dosage": {
+      "dose": {
+        "value": "160",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349200",
+    "name": "Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "valsartan 320 MG Oral Tablet",
+    "rxnormCode": "349200",
+    "dosage": {
+      "dose": {
+        "value": "320",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349251",
+    "name": "Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "349251",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "314231",
+    "name": "Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "simvastatin 10 MG Oral Tablet",
+    "rxnormCode": "314231",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349477",
+    "name": "Efavirenz (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "efavirenz 600 MG Oral Tablet",
+    "rxnormCode": "349477",
+    "dosage": {
+      "dose": {
+        "value": "600",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349199",
+    "name": "Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "valsartan 80 MG Oral Tablet",
+    "rxnormCode": "349199",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349201",
+    "name": "Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "valsartan 160 MG Oral Tablet",
+    "rxnormCode": "349201",
+    "dosage": {
+      "dose": {
+        "value": "160",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349094",
+    "name": "Budesonide (Inhalant)",
+    "category": "Inhalant",
+    "description": "budesonide 0.125 MG/ML Inhalation Suspension",
+    "rxnormCode": "349094",
+    "dosage": {
+      "dose": {
+        "value": "0.125",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "349483",
+    "name": "Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "valsartan 40 MG Oral Tablet",
+    "rxnormCode": "349483",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "349491",
+    "name": "lamiVUDine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lamivudine 300 MG Oral Tablet",
+    "rxnormCode": "349491",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "351136",
+    "name": "Albuterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "albuterol 0.417 MG/ML Inhalation Solution",
+    "rxnormCode": "351136",
+    "dosage": {
+      "dose": {
+        "value": "0.417",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "351109",
+    "name": "Budesonide (Inhalant)",
+    "category": "Inhalant",
+    "description": "budesonide 0.25 MG/ML Inhalation Suspension",
+    "rxnormCode": "351109",
+    "dosage": {
+      "dose": {
+        "value": "0.25",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "351266",
+    "name": "Buprenorphine/Naloxone (Sublingual)",
+    "category": "Sublingual",
+    "description": "buprenorphine 2 MG / naloxone 0.5 MG Sublingual Tablet",
+    "rxnormCode": "351266",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "351266",
+    "name": "Buprenorphine/Naloxone (Sublingual)",
+    "category": "Sublingual",
+    "description": "buprenorphine 2 MG / naloxone 0.5 MG Sublingual Tablet",
+    "rxnormCode": "351266",
+    "dosage": {
+      "dose": {
+        "value": "0.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "351875",
+    "name": "TRANSDERM SCOP (Transdermal)",
+    "category": "Transdermal",
+    "description": "72 HR scopolamine 0.0139 MG/HR Transdermal System",
+    "rxnormCode": "351875",
+    "dosage": {
+      "dose": {
+        "value": "13.9",
+        "unit": "mcg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/hr"
+      }
+    }
+  },
+  {
+    "id": "351137",
+    "name": "Albuterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "albuterol 0.21 MG/ML Inhalation Solution",
+    "rxnormCode": "351137",
+    "dosage": {
+      "dose": {
+        "value": "0.21",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "403978",
+    "name": "Nelfinavir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "nelfinavir 625 MG Oral Tablet",
+    "rxnormCode": "403978",
+    "dosage": {
+      "dose": {
+        "value": "625",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "389221",
+    "name": "Etonogestrel (Implant)",
+    "category": "Implant",
+    "description": "etonogestrel 68 MG Drug Implant",
+    "rxnormCode": "389221",
+    "dosage": {
+      "dose": {
+        "value": "68",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "360110",
+    "name": "Sirolimus (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "sirolimus 2 MG Oral Tablet",
+    "rxnormCode": "360110",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "403875",
+    "name": "Emtricitabine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG Oral Capsule",
+    "rxnormCode": "403875",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "402109",
+    "name": "Fosamprenavir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "fosamprenavir 700 MG Oral Tablet",
+    "rxnormCode": "402109",
+    "dosage": {
+      "dose": {
+        "value": "700",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "352001",
+    "name": "DIOVAN (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "valsartan 320 MG Oral Tablet",
+    "rxnormCode": "352001",
+    "dosage": {
+      "dose": {
+        "value": "320",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476349",
+    "name": "Ezetimibe/Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 20 MG Oral Tablet",
+    "rxnormCode": "476349",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476349",
+    "name": "Ezetimibe/Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 20 MG Oral Tablet",
+    "rxnormCode": "476349",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476350",
+    "name": "Ezetimibe/Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet",
+    "rxnormCode": "476350",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476350",
+    "name": "Ezetimibe/Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet",
+    "rxnormCode": "476350",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476556",
+    "name": "Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "476556",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476556",
+    "name": "Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "476556",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476351",
+    "name": "Ezetimibe/Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet",
+    "rxnormCode": "476351",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "476351",
+    "name": "Ezetimibe/Simvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet",
+    "rxnormCode": "476351",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "477045",
+    "name": "Chlorpheniramine (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "chlorpheniramine maleate 2 MG/ML Oral Solution",
+    "rxnormCode": "477045",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "483438",
+    "name": "Pregabalin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pregabalin 100 MG Oral Capsule",
+    "rxnormCode": "483438",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "542347",
+    "name": "Isoflurane (Inhalant)",
+    "category": "Inhalant",
+    "description": "isoflurane 999 MG/ML Inhalation Solution",
+    "rxnormCode": "542347",
+    "dosage": {
+      "dose": {
+        "value": "999",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "562508",
+    "name": "Amoxicillin/Clavulanate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 875 MG / clavulanate 125 MG Oral Tablet",
+    "rxnormCode": "562508",
+    "dosage": {
+      "dose": {
+        "value": "875",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "562508",
+    "name": "Amoxicillin/Clavulanate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 875 MG / clavulanate 125 MG Oral Tablet",
+    "rxnormCode": "562508",
+    "dosage": {
+      "dose": {
+        "value": "125",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "562251",
+    "name": "Amoxicillin/Clavulanate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 250 MG / clavulanate 125 MG Oral Tablet",
+    "rxnormCode": "562251",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "562251",
+    "name": "Amoxicillin/Clavulanate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 250 MG / clavulanate 125 MG Oral Tablet",
+    "rxnormCode": "562251",
+    "dosage": {
+      "dose": {
+        "value": "125",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "596926",
+    "name": "DULoxetine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "duloxetine 20 MG Delayed Release Oral Capsule",
+    "rxnormCode": "596926",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "562366",
+    "name": "Desflurane (Inhalant)",
+    "category": "Inhalant",
+    "description": "desflurane 1000 MG/ML Inhalation Solution",
+    "rxnormCode": "562366",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "g/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "g/ml"
+      }
+    }
+  },
+  {
+    "id": "597730",
+    "name": "Lopinavir/Ritonavir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lopinavir 200 MG / ritonavir 50 MG Oral Tablet",
+    "rxnormCode": "597730",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "597730",
+    "name": "Lopinavir/Ritonavir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lopinavir 200 MG / ritonavir 50 MG Oral Tablet",
+    "rxnormCode": "597730",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "608139",
+    "name": "Atomoxetine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atomoxetine 100 MG Oral Capsule",
+    "rxnormCode": "608139",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "597195",
+    "name": "CARBOplatin (Injectable)",
+    "category": "Injectable",
+    "description": "carboplatin 10 MG/ML Injectable Solution",
+    "rxnormCode": "597195",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "583214",
+    "name": "PACLitaxel (Injectable)",
+    "category": "Injectable",
+    "description": "paclitaxel 100 MG Injection",
+    "rxnormCode": "583214",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "616830",
+    "name": "PULMICORT (Inhalant)",
+    "category": "Inhalant",
+    "description": "budesonide 0.125 MG/ML Inhalation Suspension",
+    "rxnormCode": "616830",
+    "dosage": {
+      "dose": {
+        "value": "0.125",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "617296",
+    "name": "Amoxicillin/Clavulanate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 500 MG / clavulanate 125 MG Oral Tablet",
+    "rxnormCode": "617296",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "617296",
+    "name": "Amoxicillin/Clavulanate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amoxicillin 500 MG / clavulanate 125 MG Oral Tablet",
+    "rxnormCode": "617296",
+    "dosage": {
+      "dose": {
+        "value": "125",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "617310",
+    "name": "Atorvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atorvastatin 20 MG Oral Tablet",
+    "rxnormCode": "617310",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "617311",
+    "name": "Atorvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atorvastatin 40 MG Oral Tablet",
+    "rxnormCode": "617311",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "617312",
+    "name": "Atorvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atorvastatin 10 MG Oral Tablet",
+    "rxnormCode": "617312",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "617320",
+    "name": "LIPITOR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atorvastatin 40 MG Oral Tablet",
+    "rxnormCode": "617320",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "617314",
+    "name": "LIPITOR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atorvastatin 10 MG Oral Tablet",
+    "rxnormCode": "617314",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "636042",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / valsartan 320 MG Oral Tablet",
+    "rxnormCode": "636042",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "636042",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / valsartan 320 MG Oral Tablet",
+    "rxnormCode": "636042",
+    "dosage": {
+      "dose": {
+        "value": "320",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "643066",
+    "name": "Efavirenz/Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "643066",
+    "dosage": {
+      "dose": {
+        "value": "600",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "643066",
+    "name": "Efavirenz/Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "643066",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "643066",
+    "name": "Efavirenz/Emtricitabine/Tenofovir disoproxil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+    "rxnormCode": "643066",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "636045",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / valsartan 320 MG Oral Tablet",
+    "rxnormCode": "636045",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "636045",
+    "name": "hydroCHLOROthiazide/Valsartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / valsartan 320 MG Oral Tablet",
+    "rxnormCode": "636045",
+    "dosage": {
+      "dose": {
+        "value": "320",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "664741",
+    "name": "Atazanavir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "atazanavir 300 MG Oral Capsule",
+    "rxnormCode": "664741",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "630208",
+    "name": "Albuterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "albuterol 0.83 MG/ML Inhalation Solution",
+    "rxnormCode": "630208",
+    "dosage": {
+      "dose": {
+        "value": "0.83",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "665078",
+    "name": "Loratadine (Chewable)",
+    "category": "Chewable",
+    "description": "loratadine 5 MG Chewable Tablet",
+    "rxnormCode": "665078",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "686924",
+    "name": "Carvedilol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "carvedilol 3.125 MG Oral Tablet",
+    "rxnormCode": "686924",
+    "dosage": {
+      "dose": {
+        "value": "3.125",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "705129",
+    "name": "Nitroglycerin (Mucosal)",
+    "category": "Mucosal",
+    "description": "nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+    "rxnormCode": "705129",
+    "dosage": {
+      "dose": {
+        "value": "400",
+        "unit": "mcg/spray",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/spray"
+      }
+    }
+  },
+  {
+    "id": "672149",
+    "name": "Lapatinib (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "lapatinib 250 MG Oral Tablet",
+    "rxnormCode": "672149",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "727711",
+    "name": "Anakinra (Injectable)",
+    "category": "Injectable",
+    "description": "0.67 ML anakinra 149 MG/ML Prefilled Syringe",
+    "rxnormCode": "727711",
+    "dosage": {
+      "dose": {
+        "value": "149",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "727762",
+    "name": "Fulvestrant (Injectable)",
+    "category": "Injectable",
+    "description": "5 ML fulvestrant 50 MG/ML Prefilled Syringe",
+    "rxnormCode": "727762",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/5ml"
+      }
+    }
+  },
+  {
+    "id": "744842",
+    "name": "Raltegravir (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "raltegravir 400 MG Oral Tablet",
+    "rxnormCode": "744842",
+    "dosage": {
+      "dose": {
+        "value": "400",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "745752",
+    "name": "PROAIR (Inhalant)",
+    "category": "Inhalant",
+    "description": "NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "745752",
+    "dosage": {
+      "dose": {
+        "value": "90",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "746466",
+    "name": "XOPENEX (Inhalant)",
+    "category": "Inhalant",
+    "description": "200 ACTUAT levalbuterol 0.045 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "746466",
+    "dosage": {
+      "dose": {
+        "value": "45",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "745791",
+    "name": "Levalbuterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "200 ACTUAT levalbuterol 0.045 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "745791",
+    "dosage": {
+      "dose": {
+        "value": "45",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "746763",
+    "name": "PROVENTIL (Inhalant)",
+    "category": "Inhalant",
+    "description": "NDA020503 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "746763",
+    "dosage": {
+      "dose": {
+        "value": "90",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "749196",
+    "name": "Clopidogrel (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "clopidogrel 300 MG Oral Tablet",
+    "rxnormCode": "749196",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "746804",
+    "name": "ASMANEX (Inhalant)",
+    "category": "Inhalant",
+    "description": "120 ACTUAT mometasone furoate 0.22 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "746804",
+    "dosage": {
+      "dose": {
+        "value": "220",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "746815",
+    "name": "ASMANEX (Inhalant)",
+    "category": "Inhalant",
+    "description": "60 ACTUAT mometasone furoate 0.22 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "746815",
+    "dosage": {
+      "dose": {
+        "value": "220",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "746811",
+    "name": "ASMANEX (Inhalant)",
+    "category": "Inhalant",
+    "description": "14 ACTUAT mometasone furoate 0.22 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "746811",
+    "dosage": {
+      "dose": {
+        "value": "220",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "751616",
+    "name": "BYSTOLIC (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "nebivolol 10 MG Oral Tablet",
+    "rxnormCode": "751616",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "751623",
+    "name": "BYSTOLIC (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "nebivolol 5 MG Oral Tablet",
+    "rxnormCode": "751623",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "751620",
+    "name": "BYSTOLIC (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "nebivolol 2.5 MG Oral Tablet",
+    "rxnormCode": "751620",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "752899",
+    "name": "Leuprolide (Injectable)",
+    "category": "Injectable",
+    "description": "0.25 ML leuprolide acetate 30 MG/ML Prefilled Syringe",
+    "rxnormCode": "752899",
+    "dosage": {
+      "dose": {
+        "value": "30",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "763138",
+    "name": "Reteplase (Injectable)",
+    "category": "Injectable",
+    "description": "reteplase 10 UNT Injection",
+    "rxnormCode": "763138",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "unt",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt"
+      }
+    }
+  },
+  {
+    "id": "789980",
+    "name": "Ampicillin (Injectable)",
+    "category": "Injectable",
+    "description": "ampicillin 100 MG/ML Injectable Solution",
+    "rxnormCode": "789980",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "801095",
+    "name": "VENTOLIN (Inhalant)",
+    "category": "Inhalant",
+    "description": "NDA020983 60 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "801095",
+    "dosage": {
+      "dose": {
+        "value": "90",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "807283",
+    "name": "MIRENA (Intrauterine)",
+    "category": "Intrauterine",
+    "description": "levonorgestrel 0.000833 MG/HR Intrauterine System",
+    "rxnormCode": "807283",
+    "dosage": {
+      "dose": {
+        "value": "0.83",
+        "unit": "mcg/hr",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/hr"
+      }
+    }
+  },
+  {
+    "id": "827075",
+    "name": "BYSTOLIC (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "nebivolol 20 MG Oral Tablet",
+    "rxnormCode": "827075",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "808917",
+    "name": "Fosfomycin (Oral Solution Granules)",
+    "category": "Oral Solution Granules",
+    "description": "fosfomycin 3000 MG Granules for Oral Solution",
+    "rxnormCode": "808917",
+    "dosage": {
+      "dose": {
+        "value": "3",
+        "unit": "g",
+        "system": "http://unitsofmeasure.org",
+        "code": "g"
+      }
+    }
+  },
+  {
+    "id": "833135",
+    "name": "Milnacipran (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "milnacipran hydrochloride 100 MG Oral Tablet",
+    "rxnormCode": "833135",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "834102",
+    "name": "Penicillin V potassium (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "penicillin V potassium 500 MG Oral Tablet",
+    "rxnormCode": "834102",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "834061",
+    "name": "Penicillin V potassium (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "penicillin V potassium 250 MG Oral Tablet",
+    "rxnormCode": "834061",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "845488",
+    "name": "Ramipril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "ramipril 1.25 MG Oral Capsule",
+    "rxnormCode": "845488",
+    "dosage": {
+      "dose": {
+        "value": "1.25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "835603",
+    "name": "traMADol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "tramadol hydrochloride 50 MG Oral Tablet",
+    "rxnormCode": "835603",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854228",
+    "name": "Enoxaparin (Injectable)",
+    "category": "Injectable",
+    "description": "0.3 ML enoxaparin sodium 100 MG/ML Prefilled Syringe",
+    "rxnormCode": "854228",
+    "dosage": {
+      "dose": {
+        "value": "30",
+        "unit": "mg/0.3 ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/0.3 ml"
+      }
+    }
+  },
+  {
+    "id": "854235",
+    "name": "Enoxaparin (Injectable)",
+    "category": "Injectable",
+    "description": "0.4 ML enoxaparin sodium 100 MG/ML Prefilled Syringe",
+    "rxnormCode": "854235",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg/0.4 ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/0.4 ml"
+      }
+    }
+  },
+  {
+    "id": "849574",
+    "name": "Naproxen (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "naproxen sodium 220 MG Oral Tablet",
+    "rxnormCode": "849574",
+    "dosage": {
+      "dose": {
+        "value": "220",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854908",
+    "name": "Bisoprolol/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 10 MG / hydrochlorothiazide 6.25 MG Oral Tablet",
+    "rxnormCode": "854908",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854908",
+    "name": "Bisoprolol/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 10 MG / hydrochlorothiazide 6.25 MG Oral Tablet",
+    "rxnormCode": "854908",
+    "dosage": {
+      "dose": {
+        "value": "6.25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854919",
+    "name": "Bisoprolol/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 5 MG / hydrochlorothiazide 6.25 MG Oral Tablet",
+    "rxnormCode": "854919",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854919",
+    "name": "Bisoprolol/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 5 MG / hydrochlorothiazide 6.25 MG Oral Tablet",
+    "rxnormCode": "854919",
+    "dosage": {
+      "dose": {
+        "value": "6.25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "855332",
+    "name": "Warfarin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "warfarin sodium 5 MG Oral Tablet",
+    "rxnormCode": "855332",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854901",
+    "name": "Bisoprolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 10 MG Oral Tablet",
+    "rxnormCode": "854901",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854255",
+    "name": "Enoxaparin (Injectable)",
+    "category": "Injectable",
+    "description": "enoxaparin sodium 100 MG/ML Injectable Solution",
+    "rxnormCode": "854255",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "854252",
+    "name": "Enoxaparin (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML enoxaparin sodium 150 MG/ML Prefilled Syringe",
+    "rxnormCode": "854252",
+    "dosage": {
+      "dose": {
+        "value": "150",
+        "unit": "mg/1 ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/1 ml"
+      }
+    }
+  },
+  {
+    "id": "854916",
+    "name": "Bisoprolol/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 2.5 MG / hydrochlorothiazide 6.25 MG Oral Tablet",
+    "rxnormCode": "854916",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854916",
+    "name": "Bisoprolol/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 2.5 MG / hydrochlorothiazide 6.25 MG Oral Tablet",
+    "rxnormCode": "854916",
+    "dosage": {
+      "dose": {
+        "value": "6.25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "855812",
+    "name": "Prasugrel (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "prasugrel 10 MG Oral Tablet",
+    "rxnormCode": "855812",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "854905",
+    "name": "Bisoprolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "bisoprolol fumarate 5 MG Oral Tablet",
+    "rxnormCode": "854905",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856448",
+    "name": "Propranolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "propranolol hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "856448",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856457",
+    "name": "Propranolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "propranolol hydrochloride 20 MG Oral Tablet",
+    "rxnormCode": "856457",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856481",
+    "name": "Propranolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR propranolol hydrochloride 160 MG Extended Release Oral Capsule",
+    "rxnormCode": "856481",
+    "dosage": {
+      "dose": {
+        "value": "160",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856460",
+    "name": "Propranolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR propranolol hydrochloride 120 MG Extended Release Oral Capsule",
+    "rxnormCode": "856460",
+    "dosage": {
+      "dose": {
+        "value": "120",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856556",
+    "name": "Propranolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "propranolol hydrochloride 60 MG Oral Tablet",
+    "rxnormCode": "856556",
+    "dosage": {
+      "dose": {
+        "value": "60",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856519",
+    "name": "Propranolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "propranolol hydrochloride 40 MG Oral Tablet",
+    "rxnormCode": "856519",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856535",
+    "name": "Propranolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR propranolol hydrochloride 60 MG Extended Release Oral Capsule",
+    "rxnormCode": "856535",
+    "dosage": {
+      "dose": {
+        "value": "60",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856569",
+    "name": "Propranolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR propranolol hydrochloride 80 MG Extended Release Oral Capsule",
+    "rxnormCode": "856569",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "857005",
+    "name": "Acetaminophen/HYDROcodone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / hydrocodone bitartrate 7.5 MG Oral Tablet",
+    "rxnormCode": "857005",
+    "dosage": {
+      "dose": {
+        "value": "325",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "857005",
+    "name": "Acetaminophen/HYDROcodone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 325 MG / hydrocodone bitartrate 7.5 MG Oral Tablet",
+    "rxnormCode": "857005",
+    "dosage": {
+      "dose": {
+        "value": "7.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "858804",
+    "name": "Enalapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "enalapril maleate 2.5 MG Oral Tablet",
+    "rxnormCode": "858804",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856578",
+    "name": "Propranolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "propranolol hydrochloride 80 MG Oral Tablet",
+    "rxnormCode": "856578",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856987",
+    "name": "Acetaminophen/HYDROcodone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 300 MG / hydrocodone bitartrate 5 MG Oral Tablet",
+    "rxnormCode": "856987",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856987",
+    "name": "Acetaminophen/HYDROcodone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 300 MG / hydrocodone bitartrate 5 MG Oral Tablet",
+    "rxnormCode": "856987",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856980",
+    "name": "Acetaminophen/HYDROcodone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 300 MG / hydrocodone bitartrate 10 MG Oral Tablet",
+    "rxnormCode": "856980",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "856980",
+    "name": "Acetaminophen/HYDROcodone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 300 MG / hydrocodone bitartrate 10 MG Oral Tablet",
+    "rxnormCode": "856980",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "858810",
+    "name": "Enalapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "enalapril maleate 20 MG Oral Tablet",
+    "rxnormCode": "858810",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "858817",
+    "name": "Enalapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "enalapril maleate 10 MG Oral Tablet",
+    "rxnormCode": "858817",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "858813",
+    "name": "Enalapril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "enalapril maleate 5 MG Oral Tablet",
+    "rxnormCode": "858813",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859419",
+    "name": "Rosuvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 40 MG Oral Tablet",
+    "rxnormCode": "859419",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859088",
+    "name": "VENTOLIN (Inhalant)",
+    "category": "Inhalant",
+    "description": "NDA020983 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "859088",
+    "dosage": {
+      "dose": {
+        "value": "90",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "859424",
+    "name": "Rosuvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 5 MG Oral Tablet",
+    "rxnormCode": "859424",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859421",
+    "name": "CRESTOR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 40 MG Oral Tablet",
+    "rxnormCode": "859421",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859426",
+    "name": "CRESTOR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 5 MG Oral Tablet",
+    "rxnormCode": "859426",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859747",
+    "name": "Rosuvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 10 MG Oral Tablet",
+    "rxnormCode": "859747",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859749",
+    "name": "CRESTOR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 10 MG Oral Tablet",
+    "rxnormCode": "859749",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "860510",
+    "name": "Carvedilol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR carvedilol phosphate 10 MG Extended Release Oral Capsule",
+    "rxnormCode": "860510",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859753",
+    "name": "CRESTOR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 20 MG Oral Tablet",
+    "rxnormCode": "859753",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "860516",
+    "name": "Carvedilol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR carvedilol phosphate 20 MG Extended Release Oral Capsule",
+    "rxnormCode": "860516",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "859751",
+    "name": "Rosuvastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "rosuvastatin calcium 20 MG Oral Tablet",
+    "rxnormCode": "859751",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "861356",
+    "name": "Fondaparinux (Injectable)",
+    "category": "Injectable",
+    "description": "0.8 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe",
+    "rxnormCode": "861356",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "860975",
+    "name": "metFORMIN XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR metformin hydrochloride 500 MG Extended Release Oral Tablet",
+    "rxnormCode": "860975",
+    "dosage": {
+      "dose": {
+        "value": "500",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "860518",
+    "name": "COREG XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR carvedilol phosphate 20 MG Extended Release Oral Capsule",
+    "rxnormCode": "860518",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "861467",
+    "name": "Meperidine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "meperidine hydrochloride 50 MG Oral Tablet",
+    "rxnormCode": "861467",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "861646",
+    "name": "LIVALO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pitavastatin calcium 1 MG Oral Tablet",
+    "rxnormCode": "861646",
+    "dosage": {
+      "dose": {
+        "value": "1",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "861650",
+    "name": "LIVALO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pitavastatin calcium 2 MG Oral Tablet",
+    "rxnormCode": "861650",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "864706",
+    "name": "Methadone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "methadone hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "864706",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "861654",
+    "name": "LIVALO (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pitavastatin calcium 4 MG Oral Tablet",
+    "rxnormCode": "861654",
+    "dosage": {
+      "dose": {
+        "value": "4",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866412",
+    "name": "Metoprolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet",
+    "rxnormCode": "866412",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866427",
+    "name": "Metoprolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR metoprolol succinate 25 MG Extended Release Oral Tablet",
+    "rxnormCode": "866427",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866429",
+    "name": "TOPROL XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR metoprolol succinate 25 MG Extended Release Oral Tablet",
+    "rxnormCode": "866429",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "865098",
+    "name": "HumaLOG (Injectable)",
+    "category": "Injectable",
+    "description": "insulin lispro 100 UNT/ML Injectable Solution",
+    "rxnormCode": "865098",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "unt/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "unt/ml"
+      }
+    }
+  },
+  {
+    "id": "866436",
+    "name": "Metoprolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR metoprolol succinate 50 MG Extended Release Oral Tablet",
+    "rxnormCode": "866436",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866419",
+    "name": "Metoprolol XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR metoprolol succinate 200 MG Extended Release Oral Tablet",
+    "rxnormCode": "866419",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "864718",
+    "name": "Methadone (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "methadone hydrochloride 5 MG Oral Tablet",
+    "rxnormCode": "864718",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866514",
+    "name": "Metoprolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "metoprolol tartrate 50 MG Oral Tablet",
+    "rxnormCode": "866514",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866438",
+    "name": "TOPROL XR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "24 HR metoprolol succinate 50 MG Extended Release Oral Tablet",
+    "rxnormCode": "866438",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866516",
+    "name": "LOPRESSOR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "metoprolol tartrate 50 MG Oral Tablet",
+    "rxnormCode": "866516",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866511",
+    "name": "Metoprolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "metoprolol tartrate 100 MG Oral Tablet",
+    "rxnormCode": "866511",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "866508",
+    "name": "Metoprolol (Injectable)",
+    "category": "Injectable",
+    "description": "5 ML metoprolol tartrate 1 MG/ML Injection",
+    "rxnormCode": "866508",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/5ml"
+      }
+    }
+  },
+  {
+    "id": "866924",
+    "name": "Metoprolol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "metoprolol tartrate 25 MG Oral Tablet",
+    "rxnormCode": "866924",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "883826",
+    "name": "Tranexamic acid (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "tranexamic acid 650 MG Oral Tablet",
+    "rxnormCode": "883826",
+    "dosage": {
+      "dose": {
+        "value": "650",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "885219",
+    "name": "Benztropine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benztropine mesylate 0.5 MG Oral Tablet",
+    "rxnormCode": "885219",
+    "dosage": {
+      "dose": {
+        "value": "0.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "895996",
+    "name": "FLOVENT (Inhalant)",
+    "category": "Inhalant",
+    "description": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "895996",
+    "dosage": {
+      "dose": {
+        "value": "44",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "896001",
+    "name": "FLOVENT (Inhalant)",
+    "category": "Inhalant",
+    "description": "120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "896001",
+    "dosage": {
+      "dose": {
+        "value": "110",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "896019",
+    "name": "FLOVENT (Inhalant)",
+    "category": "Inhalant",
+    "description": "60 ACTUAT fluticasone propionate 0.05 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "896019",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "896027",
+    "name": "FLOVENT (Inhalant)",
+    "category": "Inhalant",
+    "description": "60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "896027",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "896758",
+    "name": "Labetalol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "labetalol hydrochloride 100 MG Oral Tablet",
+    "rxnormCode": "896758",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "896006",
+    "name": "FLOVENT (Inhalant)",
+    "category": "Inhalant",
+    "description": "120 ACTUAT fluticasone propionate 0.22 MG/ACTUAT Metered Dose Inhaler",
+    "rxnormCode": "896006",
+    "dosage": {
+      "dose": {
+        "value": "220",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "896023",
+    "name": "FLOVENT (Inhalant)",
+    "category": "Inhalant",
+    "description": "60 ACTUAT fluticasone propionate 0.1 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "896023",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "896209",
+    "name": "Fluticasone/Salmeterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "896209",
+    "dosage": {
+      "dose": {
+        "value": "250",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "896209",
+    "name": "Fluticasone/Salmeterol (Inhalant)",
+    "category": "Inhalant",
+    "description": "60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "896209",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "898342",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 10 MG / benazepril hydrochloride 20 MG Oral Capsule",
+    "rxnormCode": "898342",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898342",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 10 MG / benazepril hydrochloride 20 MG Oral Capsule",
+    "rxnormCode": "898342",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "896766",
+    "name": "Labetalol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "labetalol hydrochloride 300 MG Oral Tablet",
+    "rxnormCode": "896766",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "897122",
+    "name": "Liraglutide (Injectable)",
+    "category": "Injectable",
+    "description": "3 ML liraglutide 6 MG/ML Pen Injector",
+    "rxnormCode": "897122",
+    "dosage": {
+      "dose": {
+        "value": "6",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "896762",
+    "name": "Labetalol (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "labetalol hydrochloride 200 MG Oral Tablet",
+    "rxnormCode": "896762",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "897685",
+    "name": "CALAN (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "verapamil hydrochloride 80 MG Oral Tablet",
+    "rxnormCode": "897685",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898346",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 10 MG / benazepril hydrochloride 40 MG Oral Capsule",
+    "rxnormCode": "898346",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898346",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 10 MG / benazepril hydrochloride 40 MG Oral Capsule",
+    "rxnormCode": "898346",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898350",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 2.5 MG / benazepril hydrochloride 10 MG Oral Capsule",
+    "rxnormCode": "898350",
+    "dosage": {
+      "dose": {
+        "value": "2.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898350",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 2.5 MG / benazepril hydrochloride 10 MG Oral Capsule",
+    "rxnormCode": "898350",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898356",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 5 MG / benazepril hydrochloride 20 MG Oral Capsule",
+    "rxnormCode": "898356",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898356",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 5 MG / benazepril hydrochloride 20 MG Oral Capsule",
+    "rxnormCode": "898356",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898353",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 5 MG / benazepril hydrochloride 10 MG Oral Capsule",
+    "rxnormCode": "898353",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898353",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 5 MG / benazepril hydrochloride 10 MG Oral Capsule",
+    "rxnormCode": "898353",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898367",
+    "name": "Benazepril/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 20 MG / hydrochlorothiazide 12.5 MG Oral Tablet",
+    "rxnormCode": "898367",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898367",
+    "name": "Benazepril/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 20 MG / hydrochlorothiazide 12.5 MG Oral Tablet",
+    "rxnormCode": "898367",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898687",
+    "name": "Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "898687",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898359",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 5 MG / benazepril hydrochloride 40 MG Oral Capsule",
+    "rxnormCode": "898359",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898359",
+    "name": "amLODIPine/Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "amlodipine 5 MG / benazepril hydrochloride 40 MG Oral Capsule",
+    "rxnormCode": "898359",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898372",
+    "name": "Benazepril/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 20 MG / hydrochlorothiazide 25 MG Oral Tablet",
+    "rxnormCode": "898372",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898372",
+    "name": "Benazepril/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 20 MG / hydrochlorothiazide 25 MG Oral Tablet",
+    "rxnormCode": "898372",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898362",
+    "name": "Benazepril/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 10 MG / hydrochlorothiazide 12.5 MG Oral Tablet",
+    "rxnormCode": "898362",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898362",
+    "name": "Benazepril/hydroCHLOROthiazide (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 10 MG / hydrochlorothiazide 12.5 MG Oral Tablet",
+    "rxnormCode": "898362",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898690",
+    "name": "Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 20 MG Oral Tablet",
+    "rxnormCode": "898690",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898719",
+    "name": "Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 40 MG Oral Tablet",
+    "rxnormCode": "898719",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "904467",
+    "name": "Pravastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pravastatin sodium 20 MG Oral Tablet",
+    "rxnormCode": "904467",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "898723",
+    "name": "Benazepril (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "benazepril hydrochloride 5 MG Oral Tablet",
+    "rxnormCode": "898723",
+    "dosage": {
+      "dose": {
+        "value": "5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "904475",
+    "name": "Pravastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pravastatin sodium 40 MG Oral Tablet",
+    "rxnormCode": "904475",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "904419",
+    "name": "Alendronate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "alendronic acid 10 MG Oral Tablet",
+    "rxnormCode": "904419",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "904458",
+    "name": "Pravastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pravastatin sodium 10 MG Oral Tablet",
+    "rxnormCode": "904458",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "904477",
+    "name": "PRAVACHOL (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pravastatin sodium 40 MG Oral Tablet",
+    "rxnormCode": "904477",
+    "dosage": {
+      "dose": {
+        "value": "40",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "904481",
+    "name": "Pravastatin (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "pravastatin sodium 80 MG Oral Tablet",
+    "rxnormCode": "904481",
+    "dosage": {
+      "dose": {
+        "value": "80",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "905377",
+    "name": "hydrALAZINE/Isosorbide dinitrate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydralazine hydrochloride 37.5 MG / isosorbide dinitrate 20 MG Oral Tablet",
+    "rxnormCode": "905377",
+    "dosage": {
+      "dose": {
+        "value": "37.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "905377",
+    "name": "hydrALAZINE/Isosorbide dinitrate (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydralazine hydrochloride 37.5 MG / isosorbide dinitrate 20 MG Oral Tablet",
+    "rxnormCode": "905377",
+    "dosage": {
+      "dose": {
+        "value": "20",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "905269",
+    "name": "Trihexyphenidyl (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "trihexyphenidyl hydrochloride 2 MG Oral Tablet",
+    "rxnormCode": "905269",
+    "dosage": {
+      "dose": {
+        "value": "2",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "966529",
+    "name": "PULMICORT (Inhalant)",
+    "category": "Inhalant",
+    "description": "60 ACTUAT budesonide 0.09 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "966529",
+    "dosage": {
+      "dose": {
+        "value": "90",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "966222",
+    "name": "Levothyroxine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "levothyroxine sodium 0.075 MG Oral Tablet",
+    "rxnormCode": "966222",
+    "dosage": {
+      "dose": {
+        "value": "0.075",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979092",
+    "name": "Hydroxychloroquine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydroxychloroquine sulfate 200 MG Oral Tablet",
+    "rxnormCode": "979092",
+    "dosage": {
+      "dose": {
+        "value": "200",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "966524",
+    "name": "PULMICORT (Inhalant)",
+    "category": "Inhalant",
+    "description": "120 ACTUAT budesonide 0.18 MG/ACTUAT Dry Powder Inhaler",
+    "rxnormCode": "966524",
+    "dosage": {
+      "dose": {
+        "value": "180",
+        "unit": "mcg/puff",
+        "system": "http://unitsofmeasure.org",
+        "code": "mcg/puff"
+      }
+    }
+  },
+  {
+    "id": "979464",
+    "name": "hydroCHLOROthiazide/Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979464",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979464",
+    "name": "hydroCHLOROthiazide/Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979464",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979466",
+    "name": "HYZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979466",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979466",
+    "name": "HYZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979466",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979468",
+    "name": "hydroCHLOROthiazide/Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 50 MG Oral Tablet",
+    "rxnormCode": "979468",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979468",
+    "name": "hydroCHLOROthiazide/Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 50 MG Oral Tablet",
+    "rxnormCode": "979468",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979473",
+    "name": "HYZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979473",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979473",
+    "name": "HYZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979473",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979471",
+    "name": "hydroCHLOROthiazide/Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979471",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979471",
+    "name": "hydroCHLOROthiazide/Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 25 MG / losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979471",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979470",
+    "name": "HYZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 50 MG Oral Tablet",
+    "rxnormCode": "979470",
+    "dosage": {
+      "dose": {
+        "value": "12.5",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979470",
+    "name": "HYZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "hydrochlorothiazide 12.5 MG / losartan potassium 50 MG Oral Tablet",
+    "rxnormCode": "979470",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979480",
+    "name": "Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "losartan potassium 100 MG Oral Tablet",
+    "rxnormCode": "979480",
+    "dosage": {
+      "dose": {
+        "value": "100",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979485",
+    "name": "Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "losartan potassium 25 MG Oral Tablet",
+    "rxnormCode": "979485",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979487",
+    "name": "COZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "losartan potassium 25 MG Oral Tablet",
+    "rxnormCode": "979487",
+    "dosage": {
+      "dose": {
+        "value": "25",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979492",
+    "name": "Losartan (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "losartan potassium 50 MG Oral Tablet",
+    "rxnormCode": "979492",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "979494",
+    "name": "COZAAR (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "losartan potassium 50 MG Oral Tablet",
+    "rxnormCode": "979494",
+    "dosage": {
+      "dose": {
+        "value": "50",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "993452",
+    "name": "Denosumab (Injectable)",
+    "category": "Injectable",
+    "description": "1 ML denosumab 60 MG/ML Prefilled Syringe",
+    "rxnormCode": "993452",
+    "dosage": {
+      "dose": {
+        "value": "60",
+        "unit": "mg/ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/ml"
+      }
+    }
+  },
+  {
+    "id": "997488",
+    "name": "Fexofenadine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "fexofenadine hydrochloride 30 MG Oral Tablet",
+    "rxnormCode": "997488",
+    "dosage": {
+      "dose": {
+        "value": "30",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "997223",
+    "name": "Donepezil (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "donepezil hydrochloride 10 MG Oral Tablet",
+    "rxnormCode": "997223",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "996740",
+    "name": "Memantine (Oral Liquid)",
+    "category": "Oral Liquid",
+    "description": "memantine hydrochloride 2 MG/ML Oral Solution",
+    "rxnormCode": "996740",
+    "dosage": {
+      "dose": {
+        "value": "10",
+        "unit": "mg/5ml",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/5ml"
+      }
+    }
+  },
+  {
+    "id": "993770",
+    "name": "Acetaminophen/Codeine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 300 MG / codeine phosphate 15 MG Oral Tablet",
+    "rxnormCode": "993770",
+    "dosage": {
+      "dose": {
+        "value": "300",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "993770",
+    "name": "Acetaminophen/Codeine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "acetaminophen 300 MG / codeine phosphate 15 MG Oral Tablet",
+    "rxnormCode": "993770",
+    "dosage": {
+      "dose": {
+        "value": "15",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  },
+  {
+    "id": "997501",
+    "name": "Fexofenadine (Oral Pill)",
+    "category": "Oral Pill",
+    "description": "fexofenadine hydrochloride 60 MG Oral Tablet",
+    "rxnormCode": "997501",
+    "dosage": {
+      "dose": {
+        "value": "60",
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      }
+    }
+  }
+]

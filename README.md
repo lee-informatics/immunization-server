@@ -54,3 +54,6 @@ docker run -p 3000:3000 immunization-server
 The server will be available at `http://localhost:3000`.
 
 
+# License
+
+Copyright © 2025 Preston Lee. All rights reserved. Released under the Apache 2.0 license.

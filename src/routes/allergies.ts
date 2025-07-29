@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import axios, { AxiosResponse } from 'axios';
-import { TEFCA_QHIN_DEFAULT_FHIR_URL } from '../config';
+import { IMMUNIZATION_SERVER_TEFCA_QHIN_DEFAULT_FHIR_URL } from '../config';
 import { allergyCache, ALLERGY_CACHE_TTL } from '../services/allergyCache';
 
 const router = Router();
@@ -12,7 +12,7 @@ router.get('/', async (req: Request, res: Response) => {
     return res.json(allergyCache.data);
   }
   try {
-    const url = `${TEFCA_QHIN_DEFAULT_FHIR_URL}/AllergyIntolerance`;
+    const url = `${IMMUNIZATION_SERVER_TEFCA_QHIN_DEFAULT_FHIR_URL}/AllergyIntolerance`;
     const response: AxiosResponse = await axios.get(url, { headers: { 'Accept': 'application/fhir+json', ...req.headers } });
     const data = response.data;
     const allAllergies = Array.isArray(data.entry) ? data.entry.map((e: any) => e.resource) : [];

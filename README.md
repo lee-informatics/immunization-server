@@ -1,6 +1,6 @@
 # Immunization Server
 
-A Node.js/Express backend API server for the Immunization Dashboard. This server provides RESTful endpoints for managing immunization data, patient information, allergies, and bulk export operations.
+The backend API server for the Immunization Dashboard proof of concept application, written with Node.js/Express. This server provides RESTful endpoints for managing immunization data, patient information, allergies, and bulk export operations.
 
 
 ## Installation

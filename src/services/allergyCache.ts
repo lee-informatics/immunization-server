@@ -1,5 +1,5 @@
 export interface AllergyCache {
-  data?: any[];
+  data?: { [patientId: string]: any[] };
   timestamp?: number;
 }
 

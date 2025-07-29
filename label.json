@@ -1,0 +1,167 @@
+{
+	"$schema": "../schema/product.json",
+	"name": "School Immunization Dashboard Server",
+	"blurb": "An immunization gap identification, remediation, and reporting tool supporting national guidelines for pediatric immunization schedules.",
+	"vendor": "Example Agency",
+	"updated_at": "2025-07-31T23:12:05Z",
+	"id": "5f031881-c6e0-4fd5-a68a-662fc2d625b9",
+	"curators": [
+		{
+			"name": "John Curator, MD, FACME"
+		},
+		{
+			"name": "Jane Curator, PhD, FAMIA"
+		}
+	],
+	"endorsements": [
+		{
+			"name": "American Example College",
+			"compensation": "no"
+		}
+	],
+	"technology": {
+		"profile": "integrated-solution"
+	},
+	"satisfaction": {
+		"function": {
+			"level": "high",
+			"percentage": 95
+		},
+		"roi": {
+			"level": "",
+			"percentage": 90
+		},
+		"user": {
+			"level": "medium",
+			"percentage": 81
+		}
+	},
+	"domains": [
+		"public health",
+		"immunization",
+		"prevention"
+	],
+	"licensing": {
+		"trial": {
+			"available": "yes",
+			"costs": [
+				{
+					"meter_unit": "launch",
+					"unit_price": 0
+				},
+				{
+					"meter_unit": "day",
+					"unit_price": 0
+				}
+			]
+		},
+		"upfront": {
+			"cost": 0
+		},
+		"maintenance": {
+			"cost": 0
+		},
+		"usage": {
+			"comment": "Usage charges based on launch and FHIR API calls.",
+			"costs": [
+				{
+					"meter_unit": "launch",
+					"unit_price": 0
+				},
+				{
+					"meter_unit": "transaction",
+					"unit_price": 0
+				}
+			]
+		}
+	},
+	"cybersecurity": [
+		{
+			"uri": "https://controls.example.com/controls/CYBER-1",
+			"label": "Foundry Policy Assessment",
+			"compliance": "satisfied"
+		},
+		{
+			"uri": "https://controls.example.com/controls/CYBER-2",
+			"label": "Software Bill of Materials (SBOM)",
+			"compliance": "satisfied"
+		},
+		{
+			"uri": "https://controls.example.com/controls/CYBER-3",
+			"label": "Media Files on CDN",
+			"compliance": "variance",
+			"remark": "permitted by curator"
+		},
+		{
+			"uri": "https://controls.example.com/controls/CYBER-4",
+			"label": "Vendor Direct Links",
+			"compliance": "partial",
+			"remark": "may be disabled by customer"
+		}
+	],
+	"support": [
+		{
+			"label": "Phone (US)",
+			"detail": "1 (800) 555-ACME"
+		},
+		{
+			"label": "Email",
+			"detail": "support@example.com"
+		}
+	],
+	"compatibility": [
+		{
+			"heading": "Data Access",
+			"items": [
+				{
+					"label": "FHIR US Core Profiles 6.0.0 : Read-Only",
+					"value": "Yes"
+				},
+				{
+					"label": "FHIR Bulk Data Access IG 2.0.0 : Read/Write",
+					"value": "Yes"
+				}
+			]
+		},
+		{
+			"heading": "Identity & Access Management",
+			"items": [
+				{
+					"label": "SMART v1 Standalone : FHIR Read/Write",
+					"value": "Yes"
+				}
+			]
+		},
+		{
+			"heading": "Runtime Dependencies",
+			"items": [
+				{
+					"label": "Task Scheduling : Daily",
+					"value": "Yes"
+				},
+				{
+					"label": "Persistent Disk Storage : Yes",
+					"value": "No"
+				},
+				{
+					"label": "Memory : 16GB",
+					"value": "Yes"
+				}
+			]
+		},
+		{
+			"heading": "Networking & Internet",
+			"items": [
+				{
+					"label": "Outbound whitelist: hl7.org",
+					"value": "please verify"
+				},
+				{
+					"category": "Neworking & Internet",
+					"label": "URL Assignment - Automated",
+					"value": "please verify"
+				}
+			]
+		}
+	]
+}

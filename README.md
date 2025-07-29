@@ -1,6 +1,6 @@
 # Immunization Server
 
-A Node.js/Express backend API server for the Immunization Dashboard. This server provides RESTful endpoints for managing immunization data, patient information, allergies, and bulk export operations.
+The backend API server for the Immunization Dashboard proof of concept application, written with Node.js/Express. This server provides RESTful endpoints for managing immunization data, patient information, allergies, and bulk export operations.
 
 
 ## Installation
@@ -54,3 +54,6 @@ docker run -p 3000:3000 immunization-server
 The server will be available at `http://localhost:3000`.
 
 
+# License
+
+Copyright © 2025 Preston Lee. All rights reserved. Released under the Apache 2.0 license.

@@ -7,11 +7,13 @@ import {
   pollAndStoreBulkExport,
   extractJobId,
   exportStatus,
-  decodeAndFilterRecords,
   processLatestBulkExportToNDJSON,
   getNDJSONFileList,
-  getNDJSONFileContent
+  getNDJSONFileContent,
+  getImportStatus,
+  getLatestImportStatus
 } from '../services/bulkExportService';
+import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 
 const router = Router();
 const BULK_EXPORT_COLLECTION_NAME = 'bulk_exports';
@@ -29,6 +31,7 @@ router.get('/', async (req: Request, res: Response) => {
         'Prefer': 'respond-async',
       },
       validateStatus: () => true,
+      timeout: 30000 // 30 second timeout
     });
     const pollUrl = response.headers['content-location'];
     if (!pollUrl) {
@@ -42,7 +45,14 @@ router.get('/', async (req: Request, res: Response) => {
     res.json({ pollUrl, jobId, status: ExportJobState.IN_PROGRESS });
   } catch (err: any) {
     console.error('[API ERROR] /api/patient-export:', err.message);
-    res.status(err.response?.status || 500).json({ error: err.message, url: err.config?.url });
+    if (err.code) {
+      console.error('[API ERROR] Error code:', err.code);
+    }
+    
+    const errorResponse = createErrorResponse(err, `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/$export`, 'immunization', { url: err.config?.url });
+    const statusCode = getHttpStatus(err);
+    
+    res.status(statusCode).json(errorResponse);
   }
 });
 
@@ -99,40 +109,6 @@ router.get('/latest', async (req: Request, res: Response) => {
   }
 });
 
-router.get('/patient/:patientId', async (req: Request, res: Response) => {
-  console.log(`[API] GET /api/bulk-export/patient/${req.params.patientId}`);
-  const { patientId } = req.params;
-  const { resourceType } = req.query;
-  try {
-    await connectMongo();
-    const latest = await mongoDb!.collection(BULK_EXPORT_COLLECTION_NAME)
-      .find({ status: ExportJobState.FINISHED })
-      .sort({ finishedAt: -1 })
-      .limit(1)
-      .toArray();
-    if (!latest.length) {
-      console.error('[API ERROR] No finished export found');
-      return res.status(404).json({ error: 'No finished export found' });
-    }
-    const binaries = latest[0].binaries;
-    if (!binaries) {
-      console.error('[API ERROR] No binaries found in latest export');
-      return res.status(404).json({ error: 'No binaries found in latest export' });
-    }
-    const records = decodeAndFilterRecords(binaries, patientId);
-    if (resourceType && typeof resourceType === 'string') {
-      if (records[resourceType]) {
-        return res.json({ [resourceType]: records[resourceType] });
-      } else {
-        return res.json({ [resourceType]: [] });
-      }
-    }
-    res.json(records);
-  } catch (err: any) {
-    console.error(`[API ERROR] /api/bulk-export/patient/${req.params.patientId}:`, err.message);
-    res.status(500).json({ error: err.message });
-  }
-});
 
 router.get('/ndjson/process', async (req: Request, res: Response) => {
   console.log('[API] GET /api/bulk-export/ndjson/process');
@@ -195,16 +171,19 @@ router.get('/ndjson/files/:filename', async (req: Request, res: Response) => {
 
 router.post('/import', async (req: Request, res: Response) => {
   console.log('[API] POST /api/bulk-export/import');
+  
+  let targetUrl: string = IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL;
+  let availableFiles: string[] = [];
+  
   try {
-    const targetUrl = IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL
-    const inputFormat = 'application/fhir+ndjson'
-    const maxBatchSize = '500' 
+    const inputFormat = 'application/fhir+ndjson';
+    const maxBatchSize = '500'; 
     
     if (!targetUrl) {
       return res.status(400).json({ error: 'targetUrl is required' });
     }
 
-    const availableFiles = getNDJSONFileList();
+    availableFiles = getNDJSONFileList();
     if (availableFiles.length === 0) {
       return res.status(404).json({ error: 'No NDJSON files available. Please process an export first.' });
     }
@@ -246,13 +225,15 @@ router.post('/import', async (req: Request, res: Response) => {
     }
 
     console.log(`[IMPORT] Triggering import to ${targetUrl} with ${availableFiles.length} files`);
-    console.log(JSON.stringify(importPayload, null, 2));   
+    console.log(JSON.stringify(importPayload, null, 2));  
+    console.log(`${targetUrl}/$import`) 
     const response: AxiosResponse = await axios.post(`${targetUrl}/$import`, importPayload, {
       headers: {
         "Content-Type": "application/fhir+json",
         "Prefer": "respond-async"
       },
-      validateStatus: () => true
+      validateStatus: () => true,
+      timeout: 30000 // 30 second timeout
     });
 
     if (response.status === 202) {
@@ -279,45 +260,52 @@ router.post('/import', async (req: Request, res: Response) => {
 
   } catch (err: any) {
     console.error('[API ERROR] /api/bulk-export/import:', err.message);
-    res.status(500).json({ error: err.message });
+    if (err.code) {
+      console.error('[API ERROR] Error code:', err.code);
+    }
+    
+    // Use the variables that are now properly initialized
+    const errorResponse = createErrorResponse(err, `${targetUrl}/$import`, 'local', { 
+      files: availableFiles,
+      targetUrl: targetUrl
+    });
+    const statusCode = getHttpStatus(err);
+    
+    res.status(statusCode).json(errorResponse);
   }
 });
 
 router.get('/import/status', async (req: Request, res: Response) => {
   console.log('[API] GET /api/bulk-export/import/status');
-  const { statusUrl } = req.query;
+  const { importJobId } = req.query;
   
-  if (!statusUrl || typeof statusUrl !== 'string') {
-    return res.status(400).json({ error: 'statusUrl is required' });
-  }
-
-  try {
-    const response: AxiosResponse = await axios.get(statusUrl, {
-      headers: { "Accept": "application/json" },
-      validateStatus: () => true
-    });
-
-    if (response.status === 202) {
-      res.status(202).json({
-        status: 'IN_PROGRESS',
-        message: 'Import in progress'
-      });
-    } else if (response.status === 200) {
-      res.json({
-        status: 'COMPLETED',
-        message: 'Import completed successfully',
-        result: response.data
-      });
-    } else {
-      res.status(response.status).json({
-        status: 'FAILED',
-        error: `Import failed with status ${response.status}`,
-        details: response.data
-      });
+  if (importJobId && typeof importJobId === 'string') {
+    // Get specific import job status
+    const importJob = await getImportStatus(importJobId);
+    if (!importJob) {
+      return res.status(404).json({ error: 'Import job not found' });
     }
+    res.json(importJob);
+  } else {
+    // Get latest import status
+    const latestImport = await getLatestImportStatus();
+    if (!latestImport) {
+      return res.status(404).json({ error: 'No import jobs found' });
+    }
+    res.json(latestImport);
+  }
+});
 
+router.get('/import/status/latest', async (req: Request, res: Response) => {
+  console.log('[API] GET /api/bulk-export/import/status/latest');
+  try {
+    const latestImport = await getLatestImportStatus();
+    if (!latestImport) {
+      return res.status(404).json({ error: 'No import jobs found' });
+    }
+    res.json(latestImport);
   } catch (err: any) {
-    console.error('[API ERROR] /api/bulk-export/import/status:', err.message);
+    console.error('[API ERROR] /api/bulk-export/import/status/latest:', err.message);
     res.status(500).json({ error: err.message });
   }
 });

@@ -5,10 +5,14 @@ import path from 'path';
 import patientsRouter from './routes/patients';
 import bulkExportRouter from './routes/bulkExport';
 import allergiesRouter from './routes/allergies';
+import conditionsRouter from './routes/conditions';
+import immunizationsRouter from './routes/immunizations';
 import staticDataRouter from './routes/staticData';
 import administerRouter from './routes/administration';
 import { allergyCache } from './services/allergyCache';
-import { exportStatus } from './services/bulkExportService';
+import { conditionCache } from './services/conditionCache';
+import { immunizationCache } from './services/immunizationCache';
+import { exportStatus, importStatus } from './services/bulkExportService';
 
 const app = express();
 
@@ -19,6 +23,8 @@ app.use('/api/patients', patientsRouter);
 app.use('/api/patient-export', bulkExportRouter);
 app.use('/api/bulk-export', bulkExportRouter);
 app.use('/api/allergies', allergiesRouter);
+app.use('/api/conditions', conditionsRouter);
+app.use('/api/immunizations', immunizationsRouter);
 app.use('/api', staticDataRouter);
 app.use('/api/administer', administerRouter);
 
@@ -31,6 +37,14 @@ app.delete('/api/cache', (req, res) => {
   allergyCache.data = undefined;
   allergyCache.timestamp = undefined;
   
+  // Clear condition cache
+  conditionCache.data = undefined;
+  conditionCache.timestamp = undefined;
+  
+  // Clear immunization cache
+  immunizationCache.data = undefined;
+  immunizationCache.timestamp = undefined;
+  
   // Clear export status cache
   Object.keys(exportStatus).forEach(key => delete exportStatus[key]);
   
@@ -38,6 +52,8 @@ app.delete('/api/cache', (req, res) => {
     message: 'All caches cleared successfully',
     cleared: {
       allergyCache: true,
+      conditionCache: true,
+      immunizationCache: true,
       exportStatusCache: true
     }
   });

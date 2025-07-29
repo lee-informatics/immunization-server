@@ -48,7 +48,7 @@ router.get('/:patientId', async (req: Request, res: Response) => {
   console.log('[API] Cache empty or expired, fetching conditions data for patient:', patientId);
   try {
     // Fetch all conditions and filter by patient
-    const url = `${IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL}/Condition`;
+    const url = `${IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL}/Condition?patient=${patientId}`;
     console.log('[API] Fetching all conditions with URL:', url);
     const allConditions = await fetchAllPages(url, { 'Accept': 'application/fhir+json', ...req.headers });
     console.log('[API] Fetched all conditions from FHIR server:', allConditions.length);

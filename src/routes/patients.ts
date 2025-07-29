@@ -3,6 +3,7 @@ import axios, { AxiosResponse } from 'axios';
 import { IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 
+
 const router = Router();
 
 router.get('/', async (req, res) => {
@@ -16,7 +17,6 @@ router.get('/', async (req, res) => {
       headers: req.headers,
       timeout: 30000 // 30 second timeout
     });
-    
     res.status(response.status).json(response.data);
   } catch (err: any) {
     console.error('[API ERROR] /api/patients:', err.message);

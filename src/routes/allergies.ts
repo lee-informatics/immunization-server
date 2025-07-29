@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { IMMUNIZATION_SERVER_TEFCA_QHIN_FHIR_URL, IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
+import axios, { AxiosResponse } from 'axios';
 import { allergyCache, ALLERGY_CACHE_TTL } from '../services/allergyCache';
 import { fetchAllPages } from '../utils/pagination';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';

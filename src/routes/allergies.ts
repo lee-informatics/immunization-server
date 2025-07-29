@@ -49,7 +49,7 @@ router.get('/:patientId', async (req: Request, res: Response) => {
   console.log('[API] Cache empty or expired, fetching allergies data for patient:', patientId);
   try {
     // Fetch all allergies and filter by patient
-    const url = `${IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL}/AllergyIntolerance`;
+    const url = `${IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL}/AllergyIntolerance?patient=${patientId}`;
     console.log('[API] Fetching all allergies with URL:', url);
     const allAllergies = await fetchAllPages(url, { 'Accept': 'application/fhir+json', ...req.headers });
     console.log('[API] Fetched all allergies from FHIR server:', allAllergies.length);

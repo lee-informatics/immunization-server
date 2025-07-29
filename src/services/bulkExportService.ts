@@ -9,29 +9,41 @@ const BULK_EXPORT_COLLECTION_NAME = 'bulk_exports';
 const BULK_IMPORT_COLLECTION_NAME = 'bulk_imports';
 
 // Function to recursively process reference fields in JSON objects
-function processReferenceFields(obj: any): any {
+function processReferenceFields(obj: any, parentKey?: string): any {
   if (obj === null || obj === undefined) {
     return obj;
   }
   
   if (typeof obj === 'string') {
+    // Skip processing if we're inside a coding object
+    if (parentKey === 'code') {
+      return obj;
+    }
+    
     // Check if this string is a reference in the format "ResourceType/Number"
     const referenceMatch = obj.match(/^([A-Z][a-zA-Z]*)\/(\d+)$/);
     if (referenceMatch) {
       const [, resourceType, number] = referenceMatch;
       return `${resourceType}/ABC-${number}`;
     }
+    
+    // Check if this string is a standalone ID (just numbers)
+    const idMatch = obj.match(/^(\d+)$/);
+    if (idMatch) {
+      return `ABC-${obj}`;
+    }
+    
     return obj;
   }
   
   if (Array.isArray(obj)) {
-    return obj.map(item => processReferenceFields(item));
+    return obj.map(item => processReferenceFields(item, parentKey));
   }
   
   if (typeof obj === 'object') {
     const processed: any = {};
     for (const [key, value] of Object.entries(obj)) {
-      processed[key] = processReferenceFields(value);
+      processed[key] = processReferenceFields(value, key);
     }
     return processed;
   }

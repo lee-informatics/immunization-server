@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import axios, { AxiosResponse } from 'axios';
-import { IMMUNIZATION_SERVER_DEFAULT_FHIR_URL, IMMUNIZATION_SERVER_URL, IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
+import { IMMUNIZATION_SERVER_IIS_FHIR_URL, IMMUNIZATION_SERVER_URL, IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
 import { connectMongo, mongoDb } from '../services/mongo';
 import { ExportJobState, ExportJobStateType } from '../types';
 import {
@@ -21,7 +21,7 @@ router.get('/', async (req: Request, res: Response) => {
   try {
     let typesToExport: string[] = (req.query.types as string | undefined)?.split(',') || ['Immunization', 'Condition'];
     const typeParam = typesToExport.length > 0 ? `?_type=${typesToExport.join(',')}` : '';
-    const url = `${IMMUNIZATION_SERVER_DEFAULT_FHIR_URL}/$export`;
+    const url = `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/$export`;
     console.log(`[EXPORT START] ${url}`);
     const response: AxiosResponse = await axios.get(url, {
       headers: {

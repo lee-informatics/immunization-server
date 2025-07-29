@@ -1,13 +1,13 @@
 import { Router, Request, Response } from 'express';
 import axios, { AxiosResponse } from 'axios';
-import { IMMUNIZATION_SERVER_DEFAULT_FHIR_URL } from '../config';
+import { IMMUNIZATION_SERVER_IIS_FHIR_URL } from '../config';
 
 const router = Router();
 
 router.post('/immunization', async (req: Request, res: Response) => {
   try {
     const immunizationResource = req.body;
-    const url = `${IMMUNIZATION_SERVER_DEFAULT_FHIR_URL}/Immunization`;
+    const url = `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/Immunization`;
     const response: AxiosResponse = await axios.post(url, immunizationResource, {
       headers: { 'Content-Type': 'application/fhir+json' },
     });
@@ -22,7 +22,7 @@ router.post('/medication', async (req: Request, res: Response) => {
   try {
     const medicationResource = req.body;
     console.log(medicationResource)
-    const url = `${IMMUNIZATION_SERVER_DEFAULT_FHIR_URL}/MedicationAdministration`;
+    const url = `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/MedicationAdministration`;
     const response: AxiosResponse = await axios.post(url, medicationResource, {
       headers: { 'Content-Type': 'application/fhir+json' },
     });

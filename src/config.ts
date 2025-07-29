@@ -3,7 +3,7 @@ dotenv.config();
 
 export const IMMUNIZATION_DEFAULT_FHIR_URL = process.env.IMMUNIZATION_DEFAULT_FHIR_URL || 'http://localhost:8080/fhir';
 export const TEFCA_QHIN_DEFAULT_FHIR_URL = process.env.TEFCA_QHIN_DEFAULT_FHIR_URL || 'http://localhost:8081/fhir';
-export const LOCAL_HAPI_SERVER_URL = process.env.TEFCA_QHIN_DEFAULT_FHIR_URL || 'http://localhost:8096/fhir';
+export const LOCAL_HAPI_SERVER_URL = process.env.LOCAL_HAPI_SERVER_URL || 'http://localhost:8096/fhir';
 
 
 export const MONGODB_HOST = process.env.MONGODB_HOST || 'localhost';

@@ -1,7 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
-import { mongoDb, connectMongo } from './mongo';
+import { connectMongo, getMongoDb } from './mongo';
 import { ExportJobState, ExportJobStateType } from '../types';
-import { fetchAndStoreBinaries } from './binaryService';
 
 const BULK_EXPORT_COLLECTION_NAME = 'bulk_exports';
 
@@ -17,7 +16,8 @@ export async function pollAndStoreBulkExport(pollUrl: string): Promise<void> {
   exportStatus[jobId] = ExportJobState.IN_PROGRESS;
   try {
     await connectMongo();
-    await mongoDb!.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
+    const db = getMongoDb();
+    await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
       { jobId },
       { $set: { jobId, status: ExportJobState.IN_PROGRESS, data: {} } },
       { upsert: true }
@@ -38,19 +38,12 @@ export async function pollAndStoreBulkExport(pollUrl: string): Promise<void> {
       } else if (response.status === 200) {
         result = response.data;
         done = true;
-        let binaries: Record<string, any[]> = {};
-        if (result && Array.isArray(result.output)) {
-          try {
-            binaries = await fetchAndStoreBinaries(result.output);
-          } catch (err: any) {
-            console.error(`[BINARY FETCH ERROR] jobId: ${jobId} err:`, err.message);
-          }
-        }
         exportStatus[jobId] = ExportJobState.FINISHED;
         try {
-          await mongoDb!.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
+          const db = getMongoDb();
+          await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
             { jobId },
-            { $set: { status: ExportJobState.FINISHED, data: result, binaries, finishedAt: new Date() } }
+            { $set: { status: ExportJobState.FINISHED, data: result, finishedAt: new Date() } }
           );
           console.log(`[EXPORT DONE] jobId: ${jobId} (binaries stored)`);
           
@@ -61,7 +54,8 @@ export async function pollAndStoreBulkExport(pollUrl: string): Promise<void> {
         done = true;
         exportStatus[jobId] = ExportJobState.FAILED;
         try {
-          await mongoDb!.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
+          const db = getMongoDb();
+          await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
             { jobId: jobId },
             { $set: { status: ExportJobState.FAILED, data: {}, finishedAt: new Date() } }
           );
@@ -74,7 +68,8 @@ export async function pollAndStoreBulkExport(pollUrl: string): Promise<void> {
       done = true;
       exportStatus[jobId] = ExportJobState.FAILED;
       try {
-        await mongoDb!.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
+        const db = getMongoDb();
+        await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
           { jobId },
           { $set: { status: ExportJobState.FAILED, data: {}, finishedAt: new Date() } }
         );

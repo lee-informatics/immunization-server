@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
 import { IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
-import { connectMongo, mongoDb } from '../services/mongo';
+import { connectMongo, mongoDb, getMongoDb } from '../services/mongo';
 import { ExportJobState, ExportJobStateType } from '../types';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 import { triggerTransaction } from '../services/transactionService';
@@ -69,14 +69,20 @@ function convertReferencesToUrn(obj: any): void {
   }
 }
 
-function createTransactionBundle(): any {
+function createTransactionBundle(exportJobId: string): any {
   const entries: any[] = [];
   const exportsDir = path.join(process.cwd(), 'exports');
+  const exportJobDir = path.join(exportsDir, exportJobId);
 
   try {
-    console.log(`[CREATE_BUNDLE] Reading exports directory: ${exportsDir}`);
-    const files = fs.readdirSync(exportsDir);
-    console.log(`[CREATE_BUNDLE] Found files:`, files);
+    console.log(`[CREATE_BUNDLE] Reading export job directory: ${exportJobDir}`);
+    if (!fs.existsSync(exportJobDir)) {
+      console.log(`[CREATE_BUNDLE] Export job directory does not exist: ${exportJobDir}`);
+      return { resourceType: "Bundle", type: "transaction", entry: [] };
+    }
+    
+    const files = fs.readdirSync(exportJobDir);
+    console.log(`[CREATE_BUNDLE] Found files in ${exportJobId}:`, files);
     
     for (const file of files) {
       if (!file.endsWith('.ndjson')) {
@@ -85,7 +91,7 @@ function createTransactionBundle(): any {
       }
 
       console.log(`[CREATE_BUNDLE] Processing file: ${file}`);
-      const filePath = path.join(exportsDir, file);
+      const filePath = path.join(exportJobDir, file);
       const content = fs.readFileSync(filePath, 'utf8');
       const lines = content.split('\n').filter(line => line.trim());
       console.log(`[CREATE_BUNDLE] File ${file} has ${lines.length} lines`);
@@ -213,15 +219,25 @@ export async function processTransactionAsync(jobId: string): Promise<void> {
     console.log(`[TRANSACTION] Starting processTransactionAsync for jobId: ${jobId}`);
     await connectMongo();
     
-    // Check if MongoDB connection is available
-    if (!mongoDb) {
-      console.error(`[TRANSACTION] MongoDB connection not available for jobId: ${jobId}`);
-      throw new Error('Database connection not available');
+    // Get the export job ID from the transaction record
+    const db = getMongoDb();
+    const transaction = await db.collection(TRANSACTION_COLLECTION_NAME).findOne({ jobId });
+    if (!transaction || !transaction.exportJobId) {
+      throw new Error(`No export job ID found for transaction ${jobId}`);
+    }
+    
+    const exportsDir = path.join(process.cwd(), 'exports');
+    const exportJobDir = path.join(exportsDir, transaction.exportJobId);
+    console.log(`[TRANSACTION] Checking export job directory: ${exportJobDir}`);
+    console.log(`[TRANSACTION] Directory exists: ${fs.existsSync(exportJobDir)}`);
+    if (fs.existsSync(exportJobDir)) {
+      const files = fs.readdirSync(exportJobDir);
+      console.log(`[TRANSACTION] Files in export job directory:`, files);
     }
     
     // Create transaction bundle
-    console.log(`[TRANSACTION] Creating transaction bundle...`);
-    const bundle = createTransactionBundle();
+    console.log(`[TRANSACTION] Creating transaction bundle for export job: ${transaction.exportJobId}...`);
+    const bundle = createTransactionBundle(transaction.exportJobId);
     console.log(`[TRANSACTION] Transaction bundle created with ${bundle.entry.length} resources.`);
     console.log(`[TRANSACTION] Bundle resource types:`, bundle.entry.map((e: any) => e.resource.resourceType));
 
@@ -232,14 +248,13 @@ export async function processTransactionAsync(jobId: string): Promise<void> {
     
     // Update database with success
     console.log(`[TRANSACTION] Updating database with success for jobId: ${jobId}`);
-    await mongoDb.collection(TRANSACTION_COLLECTION_NAME).updateOne(
+    await db.collection(TRANSACTION_COLLECTION_NAME).updateOne(
       { jobId },
       { 
         $set: { 
           status: ExportJobState.FINISHED,
           completedAt: new Date(),
           resourcesCount: bundle.entry.length,
-          result: result
         }
       }
     );
@@ -250,22 +265,38 @@ export async function processTransactionAsync(jobId: string): Promise<void> {
     console.error(`[TRANSACTION] Full error details:`, error);
     console.error(`[TRANSACTION] Error stack:`, error.stack);
     
-    // Try to update database with failure, but don't fail if DB is not available
     try {
-      if (mongoDb) {
-        await mongoDb.collection(TRANSACTION_COLLECTION_NAME).updateOne(
-          { jobId },
-          { 
-            $set: { 
-              status: ExportJobState.FAILED,
-              completedAt: new Date(),
-              error: error.message
-            }
+      await connectMongo();
+      const db = getMongoDb();
+      await db.collection(TRANSACTION_COLLECTION_NAME).updateOne(
+        { jobId },
+        { 
+          $set: { 
+            status: ExportJobState.FAILED,
+            completedAt: new Date(),
+            error: error.message
           }
-        );
-      }
+        }
+      );
     } catch (dbError) {
       console.error(`[TRANSACTION] Failed to update database with error status for jobId: ${jobId}`, dbError);
+    }
+  } finally {
+    // Clean up export job folder regardless of success or failure
+    try {
+      await connectMongo();
+      const db = getMongoDb();
+      const transaction = await db.collection(TRANSACTION_COLLECTION_NAME).findOne({ jobId });
+      if (transaction && transaction.exportJobId) {
+        const exportsDir = path.join(process.cwd(), 'exports');
+        const exportJobDir = path.join(exportsDir, transaction.exportJobId);
+        if (fs.existsSync(exportJobDir)) {
+          fs.rmSync(exportJobDir, { recursive: true, force: true });
+          console.log(`[TRANSACTION] Cleaned up export job directory: ${exportJobDir}`);
+        }
+      }
+    } catch (cleanupError: any) {
+      console.error(`[TRANSACTION] Failed to clean up export job directory for jobId: ${jobId}`, cleanupError.message);
     }
   }
 }
@@ -275,7 +306,8 @@ router.post('/', async (req: Request, res: Response) => {
   
   try {
     const jobId = uuidv4();
-    
+    const { exportJobId } = req.body;
+  
     // Create the initial transaction record first
     await connectMongo();
     if (!mongoDb) {
@@ -284,21 +316,30 @@ router.post('/', async (req: Request, res: Response) => {
     }
     
     // Create initial transaction record
-    await mongoDb.collection(TRANSACTION_COLLECTION_NAME).updateOne(
+    const db = getMongoDb();
+    await db.collection(TRANSACTION_COLLECTION_NAME).updateOne(
       { jobId },
       { 
         $set: { 
           jobId, 
+          exportJobId,
           status: ExportJobState.IN_PROGRESS, 
           createdAt: new Date(), 
-          type: 'transaction' 
         } 
       },
       { upsert: true }
     );
     
+    // Create export job specific folder
+    const exportsDir = path.join(process.cwd(), 'exports');
+    const exportJobDir = path.join(exportsDir, exportJobId);
+    if (!fs.existsSync(exportJobDir)) {
+      fs.mkdirSync(exportJobDir, { recursive: true });
+      console.log(`[API] Created export job directory: ${exportJobDir}`);
+    }
+    
     // Start the transaction processing in the background
-    triggerTransaction(jobId).catch(err => {
+    triggerTransaction(jobId, exportJobId).catch(err => {
       console.error('[API ERROR] Background transaction failed:', err);
     });
     
@@ -336,7 +377,8 @@ router.get('/status', async (req: Request, res: Response) => {
       return res.status(500).json({ error: 'Database connection not available' });
     }
     
-    const transaction = await mongoDb.collection(TRANSACTION_COLLECTION_NAME).findOne({ jobId });
+    const db = getMongoDb();
+    const transaction = await db.collection(TRANSACTION_COLLECTION_NAME).findOne({ jobId });
     
     if (!transaction) {
       return res.status(404).json({ error: 'Transaction not found' });

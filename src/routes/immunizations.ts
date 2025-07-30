@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
-import { immunizationCache, IMMUNIZATION_CACHE_TTL } from '../services/immunizationCache';
+import { immunizationCache, CACHE_TTL } from '../services/cacheService';
 import { fetchAllPages } from '../utils/pagination';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 
@@ -9,7 +9,7 @@ const router = Router();
 router.get('/', async (req: Request, res: Response) => {
   console.log('[API] GET /api/immunizations');
   const now = Date.now();
-  if (immunizationCache.data && immunizationCache.timestamp && (now - immunizationCache.timestamp < IMMUNIZATION_CACHE_TTL)) {
+  if (immunizationCache.data && immunizationCache.timestamp && (now - immunizationCache.timestamp < CACHE_TTL)) {
     // Return all immunizations as a flat array from the cached data
     const allImmunizations = Object.values(immunizationCache.data).flat();
     return res.json(allImmunizations);
@@ -39,7 +39,7 @@ router.get('/:patientId', async (req: Request, res: Response) => {
   // Check if we have cached data for this specific patient
   const cacheKey = `patient_${patientId}`;
   const now = Date.now();
-  if (immunizationCache.data && immunizationCache.data[cacheKey] && immunizationCache.timestamp && (now - immunizationCache.timestamp < IMMUNIZATION_CACHE_TTL)) {
+  if (immunizationCache.data && immunizationCache.data[cacheKey] && immunizationCache.timestamp && (now - immunizationCache.timestamp < CACHE_TTL)) {
     console.log('[API] Returning cached immunizations for patient:', patientId);
     return res.json(immunizationCache.data[cacheKey]);
   }

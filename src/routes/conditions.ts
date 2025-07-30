@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
-import { conditionCache, CONDITION_CACHE_TTL } from '../services/conditionCache';
+import { conditionCache, CACHE_TTL } from '../services/cacheService';
 import { fetchAllPages } from '../utils/pagination';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 
@@ -9,7 +9,7 @@ const router = Router();
 router.get('/', async (req: Request, res: Response) => {
   console.log('[API] GET /api/conditions');
   const now = Date.now();
-  if (conditionCache.data && conditionCache.timestamp && (now - conditionCache.timestamp < CONDITION_CACHE_TTL)) {
+  if (conditionCache.data && conditionCache.timestamp && (now - conditionCache.timestamp < CACHE_TTL)) {
     // Return all conditions as a flat array from the cached data
     const allConditions = Object.values(conditionCache.data).flat();
     return res.json(allConditions);
@@ -39,7 +39,7 @@ router.get('/:patientId', async (req: Request, res: Response) => {
   // Check if we have cached data for this specific patient
   const cacheKey = `patient_${patientId}`;
   const now = Date.now();
-  if (conditionCache.data && conditionCache.data[cacheKey] && conditionCache.timestamp && (now - conditionCache.timestamp < CONDITION_CACHE_TTL)) {
+  if (conditionCache.data && conditionCache.data[cacheKey] && conditionCache.timestamp && (now - conditionCache.timestamp < CACHE_TTL)) {
     console.log('[API] Returning cached conditions for patient:', patientId);
     return res.json(conditionCache.data[cacheKey]);
   }

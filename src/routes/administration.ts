@@ -1,8 +1,7 @@
 import { Router, Request, Response } from 'express';
 import axios, { AxiosResponse } from 'axios';
 import { IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
-import { immunizationCache } from '../services/immunizationCache';
-import { conditionCache } from '../services/conditionCache';
+import { conditionCache, immunizationCache } from '../services/cacheService';
 
 const router = Router();
 

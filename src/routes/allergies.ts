@@ -1,7 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { IMMUNIZATION_SERVER_TEFCA_QHIN_FHIR_URL, IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
-import axios, { AxiosResponse } from 'axios';
-import { allergyCache, ALLERGY_CACHE_TTL } from '../services/allergyCache';
+import { allergyCache, CACHE_TTL } from '../services/cacheService';
 import { fetchAllPages } from '../utils/pagination';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 
@@ -10,7 +9,7 @@ const router = Router();
 router.get('/', async (req: Request, res: Response) => {
   console.log('[API] GET /api/allergies');
   const now = Date.now();
-  if (allergyCache.data && allergyCache.timestamp && (now - allergyCache.timestamp < ALLERGY_CACHE_TTL)) {
+  if (allergyCache.data && allergyCache.timestamp && (now - allergyCache.timestamp < CACHE_TTL)) {
     // Return all allergies as a flat array from the cached data
     const allAllergies = Object.values(allergyCache.data).flat();
     return res.json(allAllergies);
@@ -40,7 +39,7 @@ router.get('/:patientId', async (req: Request, res: Response) => {
   // Check if we have cached data for this specific patient
   const cacheKey = `patient_${patientId}`;
   const now = Date.now();
-  if (allergyCache.data && allergyCache.data[cacheKey] && allergyCache.timestamp && (now - allergyCache.timestamp < ALLERGY_CACHE_TTL)) {
+  if (allergyCache.data && allergyCache.data[cacheKey] && allergyCache.timestamp && (now - allergyCache.timestamp < CACHE_TTL)) {
     console.log('[API] Returning cached allergies for patient:', patientId);
     return res.json(allergyCache.data[cacheKey]);
   }

@@ -6,13 +6,17 @@ import { ExportJobState, ExportJobStateType } from '../types';
 import {
   pollAndStoreBulkExport,
   extractJobId,
-  exportStatus,
+  exportStatus
+} from '../services/exportService';
+import {
   processLatestBulkExportToNDJSON,
   getNDJSONFileList,
-  getNDJSONFileContent,
+  getNDJSONFileContent
+} from '../services/ndjsonService';
+import {
   getImportStatus,
   getLatestImportStatus
-} from '../services/bulkExportService';
+} from '../services/importService';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 
 const router = Router();
@@ -21,9 +25,7 @@ const BULK_EXPORT_COLLECTION_NAME = 'bulk_exports';
 router.get('/', async (req: Request, res: Response) => {
   console.log('[API] GET /api/patient-export', req.query);
   try {
-    let typesToExport: string[] = (req.query.types as string | undefined)?.split(',') || ['Immunization', 'Condition'];
-    const typeParam = typesToExport.length > 0 ? `?_type=${typesToExport.join(',')}` : '';
-    const url = `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/Patient/$export`;
+    const url = `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/$export`;
     console.log(`[EXPORT START] ${url}`);
     const response: AxiosResponse = await axios.get(url, {
       headers: {
@@ -49,7 +51,7 @@ router.get('/', async (req: Request, res: Response) => {
       console.error('[API ERROR] Error code:', err.code);
     }
     
-    const errorResponse = createErrorResponse(err, `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/Patient/$export`, 'immunization', { url: err.config?.url });
+    const errorResponse = createErrorResponse(err, `${IMMUNIZATION_SERVER_IIS_FHIR_URL}/$export`, 'immunization', { url: err.config?.url });
     const statusCode = getHttpStatus(err);
     
     res.status(statusCode).json(errorResponse);

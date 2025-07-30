@@ -11,10 +11,11 @@ import conditionsRouter from './routes/conditions';
 import immunizationsRouter from './routes/immunizations';
 import staticDataRouter from './routes/staticData';
 import administerRouter from './routes/administration';
+import transactRouter from './routes/transact';
 import { allergyCache } from './services/allergyCache';
 import { conditionCache } from './services/conditionCache';
 import { immunizationCache } from './services/immunizationCache';
-import { exportStatus } from './services/bulkExportService';
+import { exportStatus } from './services/exportService';
 import { mongoDb } from './services/mongo';
 import { IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from './config';
 
@@ -32,6 +33,7 @@ app.use('/api/conditions', conditionsRouter);
 app.use('/api/immunizations', immunizationsRouter);
 app.use('/api', staticDataRouter);
 app.use('/api/administer', administerRouter);
+app.use('/api/transact', transactRouter);
 
 app.use('/exports', express.static(path.join(process.cwd(), 'exports')));
 

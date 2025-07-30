@@ -29,4 +29,13 @@ export async function connectMongo(): Promise<void> {
   }
 }
 
+
+export function getMongoDb(): Db {
+  if (!mongoDb) {
+    console.log("[MONGO ERROR] MongoDB connection not available")
+    throw new Error('MongoDB connection not available');
+  }
+  return mongoDb;
+}
+
 export { mongoClient, mongoDb }; 

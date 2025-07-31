@@ -37,8 +37,7 @@ router.get('/', async (req: Request, res: Response) => {
       return res.status(500).json({ error: 'No Content-Location returned.', fhirError: errorMsg, status: response.status, url });
     }
     const jobId = extractJobId(pollUrl);
-    pollAndStoreBulkExport(pollUrl);
-    exportStatus[jobId] = ExportJobState.IN_PROGRESS;
+    pollAndStoreBulkExport(jobId, pollUrl);
     res.json({ pollUrl, jobId, status: ExportJobState.IN_PROGRESS });
   } catch (err: any) {
     console.error('[API ERROR] /api/patient-export:', err.message);
@@ -105,36 +104,6 @@ router.get('/status', async (req: Request, res: Response) => {
   });
 });
 
-router.get('/poll', async (req: Request, res: Response) => {
-  console.log('[API] GET /api/patient-export/poll', req.query);
-  const { pollUrl } = req.query;
-  if (!pollUrl || typeof pollUrl !== 'string') return res.status(400).json({ error: 'Missing pollUrl' });
-  try {
-    const response: AxiosResponse = await axios.get(pollUrl, { headers: req.headers, validateStatus: () => true });
-    res.status(response.status).json(response.data);
-  } catch (err: any) {
-    console.error('[API ERROR] /api/patient-export/poll:', err.message);
-    res.status(err.response?.status || 500).json({ error: err.message });
-  }
-});
-
-router.get('/latest', async (req: Request, res: Response) => {
-  console.log('[API] GET /api/bulk-export/latest');
-  try {
-    await connectMongo();
-    const db = getMongoDb();
-    const latest = await db.collection(BULK_EXPORT_COLLECTION_NAME)
-      .find().sort({ timestamp: -1 }).limit(1).toArray();
-    if (latest.length === 0) return res.status(404).json({ error: 'No export found' });
-    res.json(latest[0]);
-  } catch (err: any) {
-    console.error('[API ERROR] /api/bulk-export/latest - MongoDB connection failed:', err.message);
-    res.status(503).json({ 
-      error: 'Database connection failed', 
-      details: err.message 
-    });
-  }
-});
 
 
 router.get('/ndjson/files', async (req: Request, res: Response) => {

@@ -51,125 +51,116 @@ function processReferenceFields(obj: any, parentKey?: string): any {
 
 export async function processExportToNDJSON(exportJobId: string): Promise<{ success: boolean; files: string[]; error?: string }> {
   try {
-    console.log(`[NDJSON] Starting processExportToNDJSON for exportJobId: ${exportJobId}`);
+    console.log(`[NDJSON] Starting for exportJobId: ${exportJobId}`);
     await connectMongo();
-    
     const db = getMongoDb();
+
+    // Step 1: Fetch latest export
     const latest = await db.collection(BULK_EXPORT_COLLECTION_NAME)
       .find({ jobId: exportJobId, status: ExportJobState.FINISHED })
       .sort({ finishedAt: -1 })
       .limit(1)
       .toArray();
-    
-    console.log(`[NDJSON] Found ${latest.length} finished exports for jobId: ${exportJobId}`);
-    
-    if (latest.length === 0) {
-      console.log(`[NDJSON] No finished export found for jobId: ${exportJobId}`);
-      return { success: false, files: [], error: 'No finished export found' };
+
+    if (!latest || latest.length === 0) {
+      const msg = `No finished export found for jobId: ${exportJobId}`;
+      console.error(`[NDJSON ERROR] ${msg}`);
+      return { success: false, files: [], error: msg };
     }
-    
+
     const exportDoc = latest[0];
-    console.log(`[NDJSON] Processing export document:`, { 
-      jobId: exportDoc.jobId, 
-      status: exportDoc.status, 
-      hasData: !!exportDoc.data,
-      hasDataOutput: !!(exportDoc.data && exportDoc.data.output),
-      dataOutputLength: exportDoc.data?.output?.length || 0
-    });
-    
-    let binaries: Record<string, any[]> = {};
-    if (exportDoc && exportDoc.data && exportDoc.data.output && Array.isArray(exportDoc.data.output)) {
-      console.log(`[NDJSON] Output entries found:`, exportDoc.data.output.length);
-      console.log(`[NDJSON] First few output entries:`, exportDoc.data.output.slice(0, 3));
-      
-      try {
-        binaries = await fetchAndStoreBinaries(exportDoc.data.output);
-        console.log(`[NDJSON] Fetched binaries for resource types:`, Object.keys(binaries));
-      } catch (err: any) {
-        console.error('[BINARY FETCH ERROR]', err.message);
-      }
+    const output = exportDoc.data?.output;
+    if (!output || !Array.isArray(output) || output.length === 0) {
+      const msg = `Export document has no valid output for jobId: ${exportJobId}`;
+      console.error(`[NDJSON ERROR] ${msg}`);
+      return { success: false, files: [], error: msg };
     }
-    
+
+    // Step 2: Fetch binaries
+    let binaries: Record<string, any[]>;
+    try {
+      binaries = await fetchAndStoreBinaries(output);
+    } catch (err: any) {
+      const msg = `Failed to fetch binaries: ${err.message}`;
+      console.error(`[BINARY FETCH ERROR] ${msg}`);
+      return { success: false, files: [], error: msg };
+    }
+
     if (!binaries || Object.keys(binaries).length === 0) {
-      console.log(`[NDJSON] No binaries found in latest export`);
-      return { success: false, files: [], error: 'No binaries found in latest export' };
+      const msg = `No binaries were fetched for jobId: ${exportJobId}`;
+      console.error(`[NDJSON ERROR] ${msg}`);
+      return { success: false, files: [], error: msg };
     }
-    
+
+    // Step 3: Create export directory
     const exportsDir = path.join(process.cwd(), 'exports');
     const exportJobDir = path.join(exportsDir, exportJobId);
-    console.log(`[NDJSON] Exports directory: ${exportsDir}`);
-    console.log(`[NDJSON] Export job directory: ${exportJobDir}`);
-    
-    if (!fs.existsSync(exportsDir)) {
-      fs.mkdirSync(exportsDir, { recursive: true });
-      console.log(`[NDJSON] Created exports directory: ${exportsDir}`);
+    try {
+      if (!fs.existsSync(exportsDir)) fs.mkdirSync(exportsDir, { recursive: true });
+      if (!fs.existsSync(exportJobDir)) fs.mkdirSync(exportJobDir, { recursive: true });
+    } catch (err: any) {
+      const msg = `Failed to create export directory: ${err.message}`;
+      console.error(`[NDJSON ERROR] ${msg}`);
+      return { success: false, files: [], error: msg };
     }
-    if (!fs.existsSync(exportJobDir)) {
-      fs.mkdirSync(exportJobDir, { recursive: true });
-      console.log(`[NDJSON] Created export job directory: ${exportJobDir}`);
-    }
-    
+
     const createdFiles: string[] = [];
-    
+
+    // Step 4: Decode binaries and write NDJSON files
     for (const [resourceType, binaryArray] of Object.entries(binaries)) {
       if (!Array.isArray(binaryArray) || binaryArray.length === 0) continue;
-      
+
       const allRecords: any[] = [];
-      
+
       for (const binary of binaryArray) {
         if (!binary.data) continue;
-        
+
+        let lines: string[] = [];
         try {
-          // Decode base64 data
           const decoded = Buffer.from(binary.data, 'base64').toString('utf-8');
-          const lines = decoded.trim().split(/\r?\n/);
-          
-          // Parse each line as JSON
-          for (const line of lines) {
-            if (line.trim()) {
-              try {
-                const record = JSON.parse(line);
-                
-                // Process the entire record to handle both id fields and reference fields
-                const processedRecord = processReferenceFields(record);
-                
-                allRecords.push(processedRecord);
-              } catch (parseError) {
-                console.error(`[NDJSON ERROR] Failed to parse line in ${resourceType}:`, parseError);
-              }
-            }
+          lines = decoded.trim().split(/\r?\n/);
+        } catch (err: any) {
+          const msg = `Base64 decode error in ${resourceType}: ${err.message}`;
+          console.error(`[NDJSON ERROR] ${msg}`);
+          return { success: false, files: [], error: msg };
+        }
+
+        for (const line of lines) {
+          if (!line.trim()) continue;
+          try {
+            const record = JSON.parse(line);
+            const processed = processReferenceFields(record);
+            allRecords.push(processed);
+          } catch (err: any) {
+            const msg = `Invalid JSON in ${resourceType} line: ${err.message}`;
+            console.error(`[NDJSON ERROR] ${msg}`);
+            return { success: false, files: [], error: msg };
           }
-        } catch (decodeError) {
-          console.error(`[NDJSON ERROR] Failed to decode binary for ${resourceType}:`, decodeError);
         }
       }
-      
-      // Write to NDJSON file in export job specific directory
+
       if (allRecords.length > 0) {
         const filename = `${resourceType}.ndjson`;
         const filepath = path.join(exportJobDir, filename);
-        
-        const ndjsonContent = allRecords
-          .map(record => JSON.stringify(record))
-          .join('\n');
-        
-        fs.writeFileSync(filepath, ndjsonContent, 'utf-8');
-        createdFiles.push(filename);
-        
-        console.log(`[NDJSON] Created ${filename} with ${allRecords.length} records in ${exportJobId}`);
-        console.log(`[NDJSON] File path: ${filepath}`);
-        console.log(`[NDJSON] File exists after write: ${fs.existsSync(filepath)}`);
+
+        try {
+          fs.writeFileSync(filepath, allRecords.map(r => JSON.stringify(r)).join('\n'), 'utf-8');
+          createdFiles.push(filename);
+        } catch (err: any) {
+          const msg = `Failed to write file ${filename}: ${err.message}`;
+          console.error(`[NDJSON ERROR] ${msg}`);
+          return { success: false, files: [], error: msg };
+        }
       }
     }
-    
-    console.log(`[NDJSON] Process completed. Created ${createdFiles.length} files:`, createdFiles);
-    console.log(`[NDJSON] Final check - files in export job directory:`, fs.readdirSync(exportJobDir));
-    
+
+    console.log(`[NDJSON] Completed with ${createdFiles.length} files`);
     return { success: true, files: createdFiles };
-    
-  } catch (error: any) {
-    console.error('[NDJSON ERROR] Failed to process latest bulk export:', error.message);
-    return { success: false, files: [], error: error.message };
+
+  } catch (err: any) {
+    const msg = `Unexpected NDJSON processing error: ${err.message}`;
+    console.error(`[NDJSON ERROR] ${msg}`);
+    return { success: false, files: [], error: msg };
   }
 }
 

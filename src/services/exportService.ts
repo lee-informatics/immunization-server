@@ -11,72 +11,92 @@ export function extractJobId(pollUrl: string): string {
 
 export let exportStatus: Record<string, ExportJobStateType> = {};
 
-export async function pollAndStoreBulkExport(pollUrl: string): Promise<void> {
-  const jobId = extractJobId(pollUrl);
+export async function pollAndStoreBulkExport(jobId: string, pollUrl: string): Promise<void> {
   exportStatus[jobId] = ExportJobState.IN_PROGRESS;
+
   try {
     await connectMongo();
     const db = getMongoDb();
+
+    // Initial DB status update
     await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
       { jobId },
-      { $set: { jobId, status: ExportJobState.IN_PROGRESS, data: {} } },
+      { $set: { jobId, status: ExportJobState.IN_PROGRESS, data: {}, startedAt: new Date() } },
       { upsert: true }
     );
-  } catch (err: any) {
-    console.error(`[EXPORT ERROR] jobId: ${jobId} failed to update MongoDB:`, err.message);
-    return;
-  }
-  let done = false;
-  let result: any = null;
-  while (!done) {
-    try {
-      const response: AxiosResponse = await axios.get(pollUrl, { validateStatus: () => true });
-      const errorMsg = response.data && response.data.issue && response.data.issue[0]?.diagnostics;
-      console.log(`[EXPORT POLL] jobId: ${jobId} status: ${response.status} pollUrl: ${pollUrl}`);
-      if (response.status === 202) {
-        await new Promise(r => setTimeout(r, 10000));
-      } else if (response.status === 200) {
-        result = response.data;
-        done = true;
-        exportStatus[jobId] = ExportJobState.FINISHED;
-        try {
-          const db = getMongoDb();
-          await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
-            { jobId },
-            { $set: { status: ExportJobState.FINISHED, data: result, finishedAt: new Date() } }
-          );
-          console.log(`[EXPORT DONE] jobId: ${jobId} (binaries stored)`);
-          
-        } catch (err: any) {
-          console.error(`[EXPORT ERROR] jobId: ${jobId} failed to update MongoDB:`, err.message);
-        }
-      } else {
-        done = true;
-        exportStatus[jobId] = ExportJobState.FAILED;
-        try {
-          const db = getMongoDb();
-          await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
-            { jobId: jobId },
-            { $set: { status: ExportJobState.FAILED, data: {}, finishedAt: new Date() } }
-          );
-        } catch (err: any) {
-          console.error(`[EXPORT ERROR] jobId: ${jobId} failed to update MongoDB:`, err.message);
-        }
-        console.log(`[EXPORT ERROR] jobId: ${jobId} status: ${response.status} pollUrl: ${pollUrl} errorMsg: ${errorMsg}`);
-      }
-    } catch (err: any) {
-      done = true;
-      exportStatus[jobId] = ExportJobState.FAILED;
+
+    while (true) {
+      let response: AxiosResponse;
+
       try {
-        const db = getMongoDb();
-        await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
-          { jobId },
-          { $set: { status: ExportJobState.FAILED, data: {}, finishedAt: new Date() } }
-        );
-      } catch (mongoErr: any) {
-        console.error(`[EXPORT ERROR] jobId: ${jobId} failed to update MongoDB:`, mongoErr.message);
+        response = await axios.get(pollUrl, { validateStatus: () => true });
+      } catch (err: any) {
+        await markJobFailed(db, jobId, `Polling failed: ${err.message}`);
+        return;
       }
-      console.error(`[EXPORT ERROR] jobId: ${jobId} pollUrl: ${pollUrl} err:`, err.message);
+
+      const statusCode = response.status;
+      const errorMsg = response.data?.issue?.[0]?.diagnostics || '';
+
+      console.log(`[EXPORT POLL] jobId: ${jobId} status: ${statusCode} pollUrl: ${pollUrl}`);
+
+      if (statusCode === 202) {
+        await delay(10000);
+        continue;
+      }
+
+      if (statusCode === 200) {
+        console.log("response.data",response.data)
+        await markJobFinished(db, jobId, response.data);
+        return;
+      }
+
+      await markJobFailed(db, jobId, `FHIR server returned ${statusCode}: ${errorMsg}`);
+      return;
+    }
+
+  } catch (err: any) {
+    console.error(`[EXPORT ERROR] jobId: ${jobId} critical failure: ${err.message}`);
+    try {
+      const db = getMongoDb();
+      await markJobFailed(db, jobId, `Unexpected error: ${err.message}`);
+    } catch (dbErr) {
+      console.error(`[EXPORT ERROR] Could not update DB for jobId: ${jobId}`, dbErr);
     }
   }
-} 
+}
+
+
+function delay(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function markJobFinished(db: any, jobId: string, data: any): Promise<void> {
+  exportStatus[jobId] = ExportJobState.FINISHED;
+  await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
+    { jobId },
+    {
+      $set: {
+        status: ExportJobState.FINISHED,
+        data,
+        finishedAt: new Date()
+      }
+    }
+  );
+  console.log(`[EXPORT DONE] jobId: ${jobId} marked as FINISHED`);
+}
+
+async function markJobFailed(db: any, jobId: string, reason: string): Promise<void> {
+  exportStatus[jobId] = ExportJobState.FAILED;
+  await db.collection(BULK_EXPORT_COLLECTION_NAME).updateOne(
+    { jobId },
+    {
+      $set: {
+        status: ExportJobState.FAILED,
+        error: reason,
+        finishedAt: new Date()
+      }
+    }
+  );
+  console.error(`[EXPORT FAILED] jobId: ${jobId} reason: ${reason}`);
+}

@@ -8,6 +8,7 @@ import { connectMongo, mongoDb, getMongoDb } from '../services/mongo';
 import { ExportJobState, ExportJobStateType } from '../types';
 import { createErrorResponse, getHttpStatus } from '../utils/errorHandler';
 import { triggerTransaction } from '../services/transactionService';
+import updateTransactionStatus from '../utils/transactHelper'
 
 const router = Router();
 const TRANSACTION_COLLECTION_NAME = 'transactions';
@@ -216,88 +217,38 @@ async function transactBundle(bundle: any, fhirUrl: string): Promise<any> {
 
 export async function processTransactionAsync(jobId: string): Promise<void> {
   try {
-    console.log(`[TRANSACTION] Starting processTransactionAsync for jobId: ${jobId}`);
     await connectMongo();
-    
-    // Get the export job ID from the transaction record
     const db = getMongoDb();
-    const transaction = await db.collection(TRANSACTION_COLLECTION_NAME).findOne({ jobId });
-    if (!transaction || !transaction.exportJobId) {
-      throw new Error(`No export job ID found for transaction ${jobId}`);
-    }
-    
-    const exportsDir = path.join(process.cwd(), 'exports');
-    const exportJobDir = path.join(exportsDir, transaction.exportJobId);
-    console.log(`[TRANSACTION] Checking export job directory: ${exportJobDir}`);
-    console.log(`[TRANSACTION] Directory exists: ${fs.existsSync(exportJobDir)}`);
-    if (fs.existsSync(exportJobDir)) {
-      const files = fs.readdirSync(exportJobDir);
-      console.log(`[TRANSACTION] Files in export job directory:`, files);
-    }
-    
-    // Create transaction bundle
-    console.log(`[TRANSACTION] Creating transaction bundle for export job: ${transaction.exportJobId}...`);
-    const bundle = createTransactionBundle(transaction.exportJobId);
-    console.log(`[TRANSACTION] Transaction bundle created with ${bundle.entry.length} resources.`);
-    console.log(`[TRANSACTION] Bundle resource types:`, bundle.entry.map((e: any) => e.resource.resourceType));
 
-    // Send bundle to FHIR server
-    console.log(`[TRANSACTION] Sending bundle to FHIR server: ${IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL}`);
+    const transaction = await db.collection('transactions').findOne({ jobId });
+    if (!transaction?.exportJobId) {
+      throw new Error(`Export job ID not found for transaction ${jobId}`);
+    }
+
+    const bundle = createTransactionBundle(transaction.exportJobId);
+    console.log(`[TRANSACTION] Created bundle with ${bundle.entry.length} entries.`);
+
     const result = await transactBundle(bundle, IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL);
-    console.log(`[TRANSACTION] FHIR server response:`, result);
-    
-    // Update database with success
-    console.log(`[TRANSACTION] Updating database with success for jobId: ${jobId}`);
-    await db.collection(TRANSACTION_COLLECTION_NAME).updateOne(
-      { jobId },
-      { 
-        $set: { 
-          status: ExportJobState.FINISHED,
-          completedAt: new Date(),
-          resourcesCount: bundle.entry.length,
-        }
-      }
-    );
-    
-    console.log(`[TRANSACTION] Transaction ${jobId} completed successfully`);
-  } catch (error: any) {
-    console.error(`[TRANSACTION] Transaction ${jobId} failed:`, error.message);
-    console.error(`[TRANSACTION] Full error details:`, error);
-    console.error(`[TRANSACTION] Error stack:`, error.stack);
-    
-    try {
-      await connectMongo();
-      const db = getMongoDb();
-      await db.collection(TRANSACTION_COLLECTION_NAME).updateOne(
-        { jobId },
-        { 
-          $set: { 
-            status: ExportJobState.FAILED,
-            completedAt: new Date(),
-            error: error.message
-          }
-        }
-      );
-    } catch (dbError) {
-      console.error(`[TRANSACTION] Failed to update database with error status for jobId: ${jobId}`, dbError);
+    console.log(`[TRANSACTION] FHIR server result:`, result);
+
+    await updateTransactionStatus(jobId, ExportJobState.FINISHED, {
+      completedAt: new Date(),
+      resourcesCount: bundle.entry.length
+    });
+
+    // Clean up local files
+    const exportJobDir = path.join(process.cwd(), 'exports', transaction.exportJobId);
+    if (fs.existsSync(exportJobDir)) {
+      fs.rmSync(exportJobDir, { recursive: true, force: true });
+      console.log(`[TRANSACTION] Cleaned up: ${exportJobDir}`);
     }
-  } finally {
-    // Clean up export job folder regardless of success or failure
-    try {
-      await connectMongo();
-      const db = getMongoDb();
-      const transaction = await db.collection(TRANSACTION_COLLECTION_NAME).findOne({ jobId });
-      if (transaction && transaction.exportJobId) {
-        const exportsDir = path.join(process.cwd(), 'exports');
-        const exportJobDir = path.join(exportsDir, transaction.exportJobId);
-        if (fs.existsSync(exportJobDir)) {
-          fs.rmSync(exportJobDir, { recursive: true, force: true });
-          console.log(`[TRANSACTION] Cleaned up export job directory: ${exportJobDir}`);
-        }
-      }
-    } catch (cleanupError: any) {
-      console.error(`[TRANSACTION] Failed to clean up export job directory for jobId: ${jobId}`, cleanupError.message);
-    }
+
+  } catch (err: any) {
+    console.error(`[TRANSACTION ERROR] jobId=${jobId}:`, err.message);
+    await updateTransactionStatus(jobId, ExportJobState.FAILED, {
+      completedAt: new Date(),
+      error: err.message
+    });
   }
 }
 

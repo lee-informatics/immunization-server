@@ -2,7 +2,8 @@ import { Router, Request, Response } from 'express';
 import axios, { AxiosResponse } from 'axios';
 import { IMMUNIZATION_SERVER_LOCAL_HAPI_SERVER_URL } from '../config';
 import { conditionCache, immunizationCache } from '../services/cacheService';
-
+import fs from 'fs';
+import path from 'path';
 const router = Router();
 
 router.post('/immunization', async (req: Request, res: Response) => {
